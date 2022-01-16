@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ink'ISEN</title>
+    <link rel="stylesheet" href="css/menuDeroulant.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/desktop.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="ISEN, école, journal, informations, potins, actu, étudiant, Lille"> 
+    <meta name="author" content="Adeline Blonder & Alexandre Facon-Bocquet">
+</head>
+
+<!-- Page d'accueil qui contient :
+    * La navigation (logo, La MAJ, Vie à l'ISEN Lille, A propos de Ink'ISEN, contact et page de connexion)
+    * Les news du moment (en carroussel) -
+    * Le journal du moment (original et hors-série)
+    * Comment nous contacter (mail, téléphone, précident, salle)
+    * Footer (toutes les informations légales, navigation, partenariats...)
+ -->
+
+<body>
+    <header> <!--Comporte le logo et la navigation de notre site internet / Disponible sur toutes les pages-->
+        <nav>
+            <ul class="inside-menu">
+                <li><a href="index.html"><img src="Images/logo.png" alt="logo Ink'ISEN" height="200px" width="200px" class="logo"></a></li> <!-- Logo de l'association avec redirection vers la homepage-->
+                
+                <li class="deroulant1"><a href="#">La MÀJ</a> <!-- Première partie de la navigation : LA MAJ -->
+                    <ul class="sous"> <!-- Sous-partie de la navigation : LA MAJ -->
+                        <li><a href="journal.html">Le journal</a></li> <!-- Sous-partie 1 - Le journal -->
+                        <li><a href=#>Concours</a></li> <!-- Sous-partie 2 - Concours -->
+                    </ul>
+                </li>
+                <li class="deroulant5"><a href="#">Vie à l'ISEN</a> <!-- Deuxième partie de la navigation : Vie à l'ISEN Lille -->
+                    <ul class="sous"> <!-- Sous-partie de la navigation : Vie à l'ISEN Lille -->
+                        <li><a href="assos.html">Les associations</a></li>
+                        <li><a href=#>Photos des events</a></li>
+                    </ul>
+                </li>
+                <li class="deroulant2"><a href="#">A propos de l'Ink ISEN</a> <!-- 3e partie de la navigation : A propos de Ink'ISEN -->
+                    <ul class="sous"> <!-- Sous-partie de la navigation : A propos de Ink'ISEN -->
+                        <li><a href="team.html">Découvrir l'équipe</a></li>
+                        <li><a href=#>Historique</a></li>
+                    </ul>
+                </li>
+                <li class="deroulant3"><a href="contact.html">Nous contacter</a></li> <!-- 4e partie de la navigation : Contact -->
+                <li class="deroulantF"> <!-- Sous-partie de la navigation : Nous contacter -->
+                    <a href="https://www.facebook.com/Ink.isen.journal" target="_blank"> <!-- Redirection vers la page Facebook Ink'ISEN -->
+                        <img src="Images/Réseaux Sociaux/facebook.png" alt="Facebook" height="40px" width="40px"> 
+                    </a>
+                </li>
+                <li class="deroulantI">
+                    <a href="https://www.instagram.com/ink_isen/" target="_blank"> <!-- Redirection vers la page INSTAGRAM Ink'ISEN -->
+                        <img src="Images/Réseaux Sociaux/instagram.png" alt="Instagram"height="40px" width="40px">
+                    </a> 
+                </li>
+                <li class="deroulant4"><a href="admin.html" style="color: white;">Se connecter</a></li> <!-- Redirection vers la page admin' (membres de l'équipe) -->
+            </ul>
+        </nav>
+          
+    </header>
+
+
+
+    <main>
+
+        <article class="toppage"> <!--Cette section reprend les news du moment-->
+
+            <img src="Images/Intégration 2021.png" class="imgDesktop" > <!-- Image principale de la section (affichage Ordinateur et Tablette)-->
+            <img src="Images/Intégration 2021.jpg" class="imgDesktop2" > <!-- Image principale de la section (affichage Mobile)-->
+            <p class="etiquette_index">NEWS !!</p> <!--Cette classe reprend la catégorie de la section donc "News !!"-->
+            <p class="titre_etiquette">INTEGRATION PROMO 67</p> <!--Ce paragraphe est le titre de la news -->
+
+        </article>
+
+        <article class="journalMoment"> <!--Cette section regroupe le dernier journal de l'association -->
+
+            <h1 class="title">Journal du moment</h1> <!--Titre de la section -->
+
+            <section id=Maj4> <!--Section - Journal n°4 -->
+                <img src="Images/Journaux/1021_LAMAJ.PNG" class="maj4"> <!--Image du journal -->
+                <h2>OCTOBRE 2021 | N°4</h2> <!--Nom du journal -->
+            </section>
+
+            <section id=Majhs> <!--Section - Journal Hors-Série n°1 -->
+                <img src="Images/Journaux/1021_LAMAJ_HS.PNG" class="majHS1"> <!--Image du journal -->
+                <h2>OCTOBRE 2021 | <span style="color:#FDCF2D">HORS-SÉRIE</span></h2> <!--Nom du journal hors série -->
+            </section>
+
+        </article>
+
+        <article class="nosArchives">  <!--Article - Nos archives "journal" de l'association -->
+
+            <h1>Nos archives</h1>
+
+            <section id=ink1> <!--Section - Journal d'Octobre 2020 -->
+                <img src="Images/Journaux/1020_inkisen.PNG" class="Ink1"> <!--Image du journal -->
+                <p class="ink1"><span style="color:#69B66A">Octobre 2020</span></p> <!--Nom du journal-->
+            </section>
+
+            <section id=ink2> <!--Section - Journal de décembre 2020 -->
+                <img src="Images/Journaux/1220_inkisen.PNG" class="Ink2"> <!--Image du journal -->
+                <p class="ink2"><span style="color:#E94D38">Décembre 2020</span></p> <!--Nom du journal -->
+            </section>
+
+            <section id=ink3> <!--Section - Journal de mars 2021 -->
+                <img src="Images/Journaux/0321_inkisen.PNG" class="Ink3"> <!--Image du journal -->
+                <p class="ink3"><span style="color:#024B70">Mars 2021</span></p> <!--Nom du journal-->
+            </section>
+
+        </article>
+
+        <article class="contact"> <!--Article - Contact de l'association -->
+
+            <h1>Contactez-nous</h1> <!--Titre - Contact de l'association -->
+
+            <section id=contact> 
+                <img src="Images/Icones/phone.png" class="Phone"> <!--Icone "Téléphone" -->
+                <h3 class="phonE">TELEPHONE</h3> <!--Titre - Moyen de contact -->
+                <p class="phone">+ 33 6 24 98 22 85</p> <!--Paragraphe -  Numéro de téléphone-->
+            </section>
+
+            <section id=email>
+                <img src="Images/Icones/mail.png" class="Mail"> <!--Icone "Mail" -->
+                <h3 class="maiL">MAIL</h3> <!--Titre - Moyen de contact -->
+                <p class="mail">inkisen@gmail.com</p> <!--Paragraphe - Mail -->
+            </section>
+
+            <section id=local>
+                <img src="Images/Icones/localisation.png" class="Localisation"> <!--Icone "Localisation" -->
+                <h3 class="localisatioN">LOCALISATION</h3> <!--Titre - Moyen de contact -->
+                <p class="localisation">Salle ISEN</p> <!--Paragraphe - Salle-->
+            </section>
+
+            <section id=pres>
+                <img src="Images/Icones/person.png" class="President"> <!--Icone "Personne" -->
+                <h3 class="presidenT">PRESIDENT</h3> <!--Titre - Moyen de contact -->
+                <p class="president">Baptiste KLEIN</p> <!--Paragraphe - Nom du président-->
+            </section>
+
+        </article>
+
+    </main>
+
+    <footer>
+        <nav class="footer"> <!-- Redirection vers les liens principaux du site internet -->
+          <h1 class="a01">navigation</h1><br>
+          <a href="journal.html" class="a11">Le MÀJ</a></li><br>
+          <a href="#" class="a12">Vie à l'ISEN</a></li><br>
+          <a href="#" class="a13">A propos de l'Ink'ISEN</a></li><br>
+          <a href="contact.html" class="a14">Nous contacter</a></li><br>
+          <a href="journal.html" class="a15">Archives</a></li><br>
+          <a href="admin.html" class="a16">Se connecter</a></li><br>
+          <a href=# class="a21">Réserver le journal</a></li><br>
+          <a href=# class="a22">Participer aux concours</a></li><br>
+          <a href="assos.html" class="a23">Les associations</a></li><br>
+          <a href=# class="a24">Les évenements</a></li><br>
+          <a href="team.html" class="a25">L'équipe</a></li><br>
+          <a href=# class="a26">Notre histoire</a></li>
+          <p class="trait1"> </p>
+
+          <h1 class="b1">nos partenariats</h1> <!-- Nos partenaires Ink'ISEN -->
+
+          <article class="b2"> 
+              <a href="https://www.corep.fr"><img src="Images/Sponsors/Corep.png"></a> <!-- Redirection vers le site internet du partenaire -->
+          </article>
+
+          <img src="Images/Réseaux Sociaux/facebook-logo (1).png" class="fb">
+          <img src="Images/Réseaux Sociaux/instagram-logo (1).png" class="ig">
+          
+          <h1 class="c1">Tu es perdu.e ? Pas de Panique...</h1>
+
+          <input id="searchbar"  type="text" name="search" placeholder="Rechercher un article, un événement, ..."> <!-- recherche d'un élément dans le site -->
+          
+          <p class="trait2"> </p>
+        
+          <article id="d"> <!-- Elements légaux à renseigner sur un site internet -->
+            <p class="d1">Mentions légales</p>
+            <p class="d2">Charte Ink'ISEN</p>
+            <p class="d3">Politique de confidentialité</p>
+            <p class="d4">Gestion des cookies</p>
+            <p class="d5">Conditions Générales</p>
+            <p class="d6">Aide (FAQ)</p>
+          </article>
+          
+        </nav>
+    </footer>
+</body>
+</html>

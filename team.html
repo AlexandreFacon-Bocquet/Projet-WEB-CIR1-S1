@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ink'ISEN</title>
+    <link rel="stylesheet" href="css/menuDeroulant.css">
+    <link rel="stylesheet" href="css/team.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="ISEN, école, journal, informations, potins, actu, étudiant, Lille">
+    <meta name="author" content="Adeline Blonder & Alexandre Facon-Bocquet">
+</head>
+<!-- Page Équipe qui contient :
+    * Le nom et prénom de chaque membre du groupe
+    * Une photo de chaque membre
+    * Les différents pôles de l'association
+
+    - le menu déroulant
+    - le pied de page
+ -->
+ 
+ <body>
+    <header> <!--Comporte le logo et la navigation de notre site internet / Disponible sur toutes les pages-->
+        <nav>
+            <ul class="inside-menu">
+                <li><a href="index.html"><img src="Images/logo.png" alt="logo Ink'ISEN" height="200px" width="200px" class="logo"></a></li> <!-- Logo de l'association avec redirection vers la homepage-->
+                <li class="deroulant1"><a href="#">La MÀJ</a> <!-- Première partie de la navigation : LA MAJ -->
+                    <ul class="sous"> <!-- Sous-partie de la navigation : LA MAJ -->
+                        <li><a href="journal.html">Le journal</a></li> <!-- Sous-partie 1 - Le journal -->
+                        <li><a href=#>Concours</a></li> <!-- Sous-partie 2 - Concours -->
+                    </ul>
+                </li>
+                <li class="deroulant5"><a href="#">Vie à l'ISEN</a> <!-- Deuxième partie de la navigation : Vie à l'ISEN Lille -->
+                    <ul class="sous"> <!-- Sous-partie de la navigation : Vie à l'ISEN Lille -->
+                        <li><a href="assos.html">Les associations</a></li>
+                        <li><a href=#>Photos des events</a></li>
+                    </ul>
+                </li>
+                <li class="deroulant2"><a href="#">A propos de l'Ink ISEN</a> <!-- 3e partie de la navigation : A propos de Ink'ISEN -->
+                    <ul class="sous"> <!-- Sous-partie de la navigation : A propos de Ink'ISEN -->
+                        <li><a href="team.html">Découvrir l'équipe</a></li>
+                        <li><a href=#>Historique</a></li>
+                    </ul>
+                </li>
+                <li class="deroulant3"><a href="contact.html">Nous contacter</a></li> <!-- 4e partie de la navigation : Contact -->
+                <li class="deroulantF"> <!-- Sous-partie de la navigation : Nous contacter -->
+                    <a href="https://www.facebook.com/Ink.isen.journal" target="_blank"> <!-- Redirection vers la page Facebook Ink'ISEN -->
+                        <img src="Images/Réseaux Sociaux/facebook.png" alt="Facebook" height="40px" width="40px">
+                    </a>
+                </li>
+                <li class="deroulantI">
+                    <a href="https://www.instagram.com/ink_isen/" target="_blank"> <!-- Redirection vers la page INSTAGRAM Ink'ISEN -->
+                        <img src="Images/Réseaux Sociaux/instagram.png" alt="Instagram"height="40px" width="40px">
+                    </a> 
+                </li>
+                <li class="deroulant4"><a href="admin.html" style="color: white;">Se connecter</a></li> <!-- Redirection vers la page admin' (membres de l'équipe) -->
+            </ul>
+        </nav>
+    </header>
+
+
+    
+    <main>
+        <!-- Image de groupe 2020 -->
+        <article id=imgTeam>
+            <img src="Images/photo_team.png" class="imgTeam">
+        </article>
+        <!-- Image de titre de page -->
+        <article id="teamInkIsen">
+            <img src="Images/Team Ink_ISEN.png" class="team_inkisen">
+        </article>
+
+        <!-- Bureau  aka le pôle de direction de l'association -->
+        <article id="bureau">
+            <h1>Bureau</h1> <!-- Titre de la section -->
+
+            <!-- Président Baptiste-->
+            <section id="pres">
+                <img src="Images/Team/Baptiste-2.png" class="president"><!-- Photo du président -->
+                <article class="text"> <!-- Texte présent en dessous de l'image -->
+                    <h2>Baptiste KLEIN</h2><!-- Nom -->
+                    <p>Président</p><!-- Fonction -->
+                </article>
+            </section>
+
+            <!-- Secrétaire Marine-->
+            <section id="secr">
+                <img src="Images/Team/Marine-1.png" class="secretaire"><!-- Photo de la secrétaire -->
+                <article class="text"> <!-- Texte présent en dessous de l'image -->
+                    <h2>Marine GEORGES</h2><!-- Nom -->
+                    <p>Secrétaire</p><!-- Fonction -->
+                </article>
+            </section>
+
+            <!-- Trésorière Constance -->
+            <section id="tres">
+                <img src="Images/Team/Constance-1.png" class="tresoriere"><!-- Photo de la trésorière -->
+                <article class="text"><!-- Texte présent en dessous de l'image -->
+                    <h2>Constance DECROOCQ</h2><!-- Nom -->
+                    <p>Trésorière</p><!-- Fonction -->
+                </article> 
+            </section>
+        </article>
+
+
+        <!-- Pôle rédaction de l'association -->
+        <article id="redac">
+            <h1>Rédaction / Maquettiste</h1><!-- Titre de la section -->
+
+            <!-- Maquettiste -->
+            <section id="Louise">
+                <img src="Images/Team/Louise-2.png" class="louise"><!-- Photo de la maquettiste -->
+                <article class="text"><!-- Texte présent en dessous de l'image -->
+                    <h2 class="louise">Louise BAUM</h2><!-- Nom -->
+                    <p class="louise">Rédactrice / Maquettiste</p><!-- Fonction -->
+                </article>
+            </section>
+
+            <!-- Ex-présidente/Rédactrice -->
+            <section id="Amelie">
+                <img src="Images/Team/Amélie.png" class="amelie"><!-- Phote d'Amélie -->
+                <article class="text"><!-- Texte présent en dessous de l'image -->
+                    <h2 class="amelie">Amélie BOCQUET</h2><!-- Nom -->
+                    <p class="amelie">Rédactrice</p><!-- Fonction -->
+                </article>
+            </section>
+
+            <!-- Rédacteur en Chef -->
+            <section id="Malo">
+                <img src="Images/Team/Malo-1.png" class="malo"><!-- Photo du rédacteur en chef Malo -->
+                <article class="text"><!-- Texte présent en dessous de l'image -->
+                    <h2 class="malo">Malo TOURNEUR</h2><!-- Nom -->
+                    <p class="malo">Rédacteur en Chef</p><!-- Fonction -->
+                </article>
+            </section>
+
+            <!-- Rédacteur Lou -->
+            <section id="Lou">
+                <img src="Images/Team/Lou-2.png" class="lou"><!-- Photo de Lou-->
+                <article class="text"><!-- Texte présent en dessous de l'image -->
+                    <h2 class="lou">Lou DESMEDT</h2><!-- Nom -->
+                    <p class="lou">Rédacteur</p><!-- Fonction -->
+                </article>
+            </section>
+
+            <!-- Redactrice Anna -->
+            <section id="Anna">
+                <img src="Images/Team/Anna-2.png" class="anna"><!-- Photo d'Anna-->
+                <article class="text"><!-- Texte présent en dessous de l'image -->
+                    <h2 class="anna">Anna BONTE</h2><!-- Nom -->
+                    <p class="anna">Rédactrice</p><!-- Fonction -->
+                </article>
+            </section>
+        </article>
+
+
+        <!-- Pôle Photographie -->
+        <article id="photo">
+            <h1>Photographie</h1><!-- Titre de la section -->
+
+            <!-- Photographe Marie -->
+            <section id="Marie">
+                <img src="Images/Team/Marie.png" class="marie"><!-- Photo de Marie-->
+                <article class="text"><!-- Texte présent en dessous de l'image -->
+                    <h2 class="marie">Marie PIVETTE</h2><!-- Nom -->
+                    <p class="marie">Photographe</p><!-- Fonction -->
+                </article>
+            </section>
+
+            <!-- Photographe Alexander -->
+            <section id="Alex">
+                <img src="Images/Team/Alexander.png" class="alex"><!-- Photo d'Alexander -->
+                <article class="text"><!-- Texte présent en dessous de l'image -->
+                    <h2 class="alex">Alexander BONTE</h2><!-- Nom -->
+                    <p class="alex">Photographe</p><!-- Fonction -->
+                </article>
+            </section>
+        </article>
+
+
+        <!-- Pôle Communication de l'Association -->
+        <article id="comm">
+            <h1>Communication</h1><!-- Titre de la section -->
+
+            <!-- Responsable Communication -->
+            <section id="RespCom">
+                <img src="Images/Team/Alexandre-1.png" class="respcom"><!-- Photo d'Alexandre -->
+                <article class="text"><!-- Texte présent en dessous de l'image -->
+                    <h2>Alexandre FACON-BOCQUET</h2><!-- Nom -->
+                    <p>Responsable com'</p><!-- Fonction -->
+                </article>
+            </section>
+
+            <!-- Responsable Vidéo -->
+            <section id="respvid">
+                <img src="Images/Team/Adeline-1.png" class="respvid"><!-- Photo d'Adeline -->
+                <article class="text"><!-- Texte présent en dessous de l'image -->
+                    <h2>Adeline BLONDEL</h2><!-- Nom -->
+                    <p>Responsable vidéo</p><!-- Fonction -->
+                </article>
+            </section>
+
+            <!-- Anya du pôle communication -->
+            <section id="Anya">
+                <img src="Images/Team/Anya-2.png" class="comm"><!-- Photo d'Anya -->
+                <article class="text"><!-- Texte présent en dessous de l'image -->
+                    <h2>Anya LALLART</h2><!-- Nom -->
+                    <p>Pôle communication</p><!-- Fonction -->
+                </article>
+            </section>
+        </article>
+
+
+
+        <!-- Pôle Sponsors -->
+        <article id="sponsors">
+            <h1>Sponsors</h1><!-- Titre de la section -->
+
+            <!-- Responsable Sponsors Leo -->
+            <section id="Leo">
+                <img src="Images/Team/Léo-1.png" class="respspon"><!-- Photo de Léo -->
+                <article class="text"><!-- Texte présent en dessous de l'image -->
+                    <h2 class="respspon">Léo MACKOWIAK</h2><!-- Nom -->
+                    <p class="respspon">Responsable sponsors</p><!-- Fonction -->
+                </article>
+            </section>
+        </article>    
+    </main>
+
+    <footer>
+        <nav class="footer">
+          <h1 class="a01">navigation</h1><br> <!-- Redirection vers les liens principaux du site internet -->
+          <a href="journal.html" class="a11">Le MÀJ</a></li><br>
+          <a href="#" class="a12">Vie à l'ISEN</a></li><br>
+          <a href="#" class="a13">A propos de l'Ink'ISEN</a></li><br>
+          <a href="contact.html" class="a14">Nous contacter</a></li><br>
+          <a href="journal.html" class="a15">Archives</a></li><br>
+          <a href="admin.html" class="a16">Se connecter</a></li><br>
+          <a href=# class="a21">Réserver le journal</a></li><br>
+          <a href=# class="a22">Participer aux concours</a></li><br>
+          <a href="assos.html" class="a23">Les associations</a></li><br>
+          <a href=# class="a24">Les évenements</a></li><br>
+          <a href="team.html" class="a25">L'équipe</a></li><br>
+          <a href=# class="a26">Notre histoire</a></li>
+          <p class="trait1"> </p>
+
+          <h1 class="b1">nos partenariats</h1>
+          <article class="b2">
+              <a href="https://www.corep.fr"><img src="Images/Sponsors/Corep.png"></a> <!-- Redirection vers le site internet du partenaire -->
+          </article>
+          <img src="Images/Réseaux Sociaux/facebook-logo (1).png" class="fb">
+          <img src="Images/Réseaux Sociaux/instagram-logo (1).png" class="ig">
+          
+          <h1 class="c1">Tu es perdu.e ? Pas de Panique...</h1>
+          <input id="searchbar"  type="text" name="search" placeholder="Rechercher un article, un événement, ..."> <!-- recherche d'un élément dans le site -->
+          <p class="trait2"> </p>
+        
+          <article id="d"> <!-- Elements légaux à renseigner sur un site internet -->
+            <p class="d1">Mentions légales</p>
+            <p class="d2">Charte Ink'ISEN</p>
+            <p class="d3">Politique de confidentialité</p>
+            <p class="d4">Gestion des cookies</p>
+            <p class="d5">Conditions Générales</p>
+            <p class="d6">Aide (FAQ)</p>
+          </article>
+          
+        </nav>
+    </footer>
+</body>
+</html>

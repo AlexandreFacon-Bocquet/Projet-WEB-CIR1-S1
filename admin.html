@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ink'ISEN</title>
+    <!-- <link rel="stylesheet" href="css/page copy.css"> a remettre pr le tableau-->
+    <link rel="stylesheet" href="css/menuDeroulant.css">
+    <link rel="stylesheet" href="css/connexion.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="ISEN, école, journal, informations, potins, actu, étudiant, Lille">
+    <meta name="author" content="Adeline Blonder & Alexandre Facon-Bocquet">
+</head>
+
+
+<!-- Cette page servira UNIQUEMENT pour les membres d'INK'ISEN-->  
+
+<body>
+    <header> <!--Comporte le logo et la navigation de notre site internet / Disponible sur toutes les pages-->
+
+      <nav>
+
+        <ul class="inside-menu">
+            <li><a href="index.html"><img src="Images/logo.png" alt="logo Ink'ISEN" height="200px" width="200px" class="logo"></a></li> <!-- Logo de l'association avec redirection vers la homepage-->
+            <li class="deroulant1"><a href="#">La MÀJ</a> <!-- Première partie de la navigation : LA MAJ -->
+                <ul class="sous"> <!-- Sous-partie de la navigation : LA MAJ -->
+                    <li><a href="journal.html">Le journal</a></li> <!-- Sous-partie 1 - Le journal -->
+                    <li><a href=#>Concours</a></li> <!-- Sous-partie 2 - Concours -->
+                </ul>
+            </li>
+            <li class="deroulant5"><a href="#">Vie à l'ISEN</a> <!-- Deuxième partie de la navigation : Vie à l'ISEN Lille -->
+                <ul class="sous"> <!-- Sous-partie de la navigation : Vie à l'ISEN Lille -->
+                    <li><a href="assos.html">Les associations</a></li>
+                    <li><a href=#>Photos des events</a></li>
+                </ul>
+            </li>
+            <li class="deroulant2"><a href="#">A propos de l'Ink ISEN</a> <!-- 3e partie de la navigation : A propos de Ink'ISEN -->
+                <ul class="sous"> <!-- Sous-partie de la navigation : A propos de Ink'ISEN -->
+                    <li><a href="team.html">Découvrir l'équipe</a></li>
+                    <li><a href=#>Historique</a></li>
+                </ul>
+            </li>
+            <li class="deroulant3"><a href="contact.html">Nous contacter</a></li> <!-- 4e partie de la navigation : Contact -->
+            <li class="deroulantF"> <!-- Sous-partie de la navigation : Nous contacter -->
+                <a href="https://www.facebook.com/Ink.isen.journal" target="_blank"> <!-- Redirection vers la page Facebook Ink'ISEN -->
+                    <img src="Images/Réseaux Sociaux/facebook.png" alt="Facebook" height="40px" width="40px">
+                </a>
+            </li>
+            <li class="deroulantI">
+                <a href="https://www.instagram.com/ink_isen/" target="_blank"> <!-- Redirection vers la page INSTAGRAM Ink'ISEN -->
+                    <img src="Images/Réseaux Sociaux/instagram.png" alt="Instagram"height="40px" width="40px">
+                </a> 
+            </li>
+            <li class="deroulant4"><a href="admin.html" style="color: white;">Se connecter</a></li> <!-- Redirection vers la page admin' (membres de l'équipe) -->
+        </ul>
+
+    </nav>
+
+    </header>
+
+    <main>
+
+        <img src="Images/Icones/door.png">
+
+        <h1>Se connecter</h1> <!-- Titre "Se connecter" -->
+
+                <label class="lab1"> Mail : </label> <br>
+                <input type="email" name="mail" id="mail" placeholder="prénom.nom@ink-isen.com"><br><br>
+                <label class="lab2"> Mot de passe : </label><br>
+                <input type="password" value="1formatik" name="password" id="password" placeholder="******" required><br>
+                <br>
+                <a href="#">Mot de passe oublié ?</a>
+                <input type="checkbox" id="souvenir" name="souvenir">
+                <label for="souvenir" class="souvenir"> Se souvenir de moi</label>
+                <input type="submit" name="soumission" id="soumission" value="Se connecter"> 
+
+    </main>
+
+    <footer>
+
+        <nav class="footer">
+
+          <h1 class="a01">navigation</h1><br> <!-- Redirection vers les liens principaux du site internet -->
+          <a href="journal.html" class="a11">Le MÀJ</a></li><br>
+          <a href="#" class="a12">Vie à l'ISEN</a></li><br>
+          <a href="#" class="a13">A propos de l'Ink'ISEN</a></li><br>
+          <a href="contact.html" class="a14">Nous contacter</a></li><br>
+          <a href="journal.html" class="a15">Archives</a></li><br>
+          <a href="admin.html" class="a16">Se connecter</a></li><br>
+          <a href=# class="a21">Réserver le journal</a></li><br>
+          <a href=# class="a22">Participer aux concours</a></li><br>
+          <a href="assos.html" class="a23">Les associations</a></li><br>
+          <a href=# class="a24">Les évenements</a></li><br>
+          <a href="team.html" class="a25">L'équipe</a></li><br>
+          <a href=# class="a26">Notre histoire</a></li>
+          <p class="trait1"> </p>
+
+          <h1 class="b1">nos partenariats</h1>
+
+          <article class="b2">
+              <a href="https://www.corep.fr"><img src="Images/Sponsors/Corep.png"></a> <!-- Redirection vers le site internet du partenaire -->
+          </article>
+
+          <img src="Images/Réseaux Sociaux/facebook-logo (1).png" class="fb">
+          <img src="Images/Réseaux Sociaux/instagram-logo (1).png" class="ig">
+          
+          <h1 class="c1">Tu es perdu.e ? Pas de Panique...</h1>
+
+          <input id="searchbar"  type="text" name="search" placeholder="Rechercher un article, un événement, ..."> <!-- recherche d'un élément dans le site -->
+
+          <p class="trait2"> </p>
+        
+          <article id="d"> <!-- Elements légaux à renseigner sur un site internet -->
+            <p class="d1">Mentions légales</p>
+            <p class="d2">Charte Ink'ISEN</p>
+            <p class="d3">Politique de confidentialité</p>
+            <p class="d4">Gestion des cookies</p>
+            <p class="d5">Conditions Générales</p>
+            <p class="d6">Aide (FAQ)</p>
+          </article>
+          
+        </nav>
+    </footer>
+</body>
+</html>
