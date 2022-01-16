@@ -1,0 +1,420 @@
+header{
+    position:relative;
+    top:0;
+    height: 0px;
+}
+main{
+   height:2386px;
+   top:173px;
+   position:relative;
+   grid-template-rows: 542px 1072.2px 253px 455.1px; /* parametrage du grid*/
+}
+footer{
+    height:100px;
+    top:20px;
+    position:relative;
+}
+.deroulant1>a{
+    color:#bccaf8;
+}
+
+/* Images du haut */
+#Img_Team{
+    grid-row:1/2; /* position dans le grid */
+}
+
+.img_team{
+    width:100%; 
+    height:auto;
+}
+
+.journalTitle{
+    grid-area:2/1/3/6; /* position dans le grid */
+    padding:50px;
+}
+
+
+/*----------------------------------------------------------*/
+
+/* section journaux */
+
+
+#Journaux{
+    display:grid;
+    grid-row:3/4;/* position dans le grid */
+}
+
+#Journaux{ /* création d'un grid interne pour pouvoir mettre les différents journaux*/
+    grid-template-columns: 33% 33% 33%; 
+    grid-template-rows: 445.1px 62px 445.1px; 
+    /* matrice à 3 colonnes et 3 lignes*/
+}
+
+.journalTitle img{
+    width:41.52%;
+    position:relative;
+    left:29.23%;
+    right:29.23%;
+}
+
+#Journaux #n°1{
+    grid-area:1/1/2/2;/* position dans le grid "Journaux" */
+    position:relative; left:20%; /* décalage pour un meilleur centrage */
+}
+    #n°1 .text{
+        background-color: #363C5D;
+        /* dimensions du texte*/
+            width:88.34%;
+            height: 10.75%;
+        color:#ffffff;
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 44px;
+        width:246.99px;
+        margin:0;
+        margin-left:17px;
+        text-align:center;
+    }
+    #n°1 img{
+        /* dimensions de l'image*/
+        height:385.57px;
+        width:276.99px;
+    }
+
+#Journaux #n°2{
+    grid-area:1/2/2/3;/* position dans le grid "Journaux" */
+    position:relative; left:20%; /* décalage pour un meilleur centrage */
+}
+    #n°2 .text{
+        background-color: #BCCAF8;
+        /* dimensions du texte*/
+            width:88.34%;
+            height: 10.75%;
+        color: #000000;
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 44px;
+        width:276.99px;
+        margin:0;
+        text-align:center;
+    }
+    #n°2 img{
+        /* dimensions de l'image*/
+        height:385.57px;
+        width:276.99px;
+    }
+
+#Journaux #n°3{
+    grid-area:1/3/2/4; /* position dans le grid "Journaux" */
+    position:relative; left:20%; /* décalage pour un meilleur centrage */
+}
+    #n°3 .text{
+        background-color: #59E4AD;
+        /* dimensions du texte*/
+            width:88.34%;
+            height: 10.75%;
+        color: #000000;
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 44px;
+        width:276.99px;
+        margin:0;
+        text-align:center;
+    }
+    #n°3 img{
+        /* dimensions de l'image*/
+        height:385.57px;
+        width:276.99px;
+    }
+
+#Journaux #n°4{
+    grid-area:2/1/3/2; /* position dans le grid "Journaux" */
+    position:relative; left:20%; /* décalage pour un meilleur centrage */
+}
+    #n°4 .text{
+        background-color: #FDCF2D;
+        /* dimensions du texte*/
+            width:88.34%;
+            height: 64.75%;
+        color: #000000;
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 44px;
+        width:256.99px;
+        margin:0;
+        position:relative;
+        left:12px;
+        text-align:center;
+    }
+    #n°4 img{
+        /* dimensions de l'image*/
+        height:365.57px;
+        width:256.99px;
+        position:relative;
+        left:12px;
+    }
+
+/* ------------------------------------------------------------- */
+
+/* Section Hors-Série */
+
+
+.hsTitle{
+    grid-row:5/6; /* position dans le grid */
+}
+
+#hs°1{
+    grid-row:6/7; /* position dans le grid */
+}
+    #hs°1 img{
+        /* dimensions de l'image*/
+        height:365.57px;
+        width:256.99px;
+        /*léger décalage pour le recentrer un tout petit peu */
+        position:relative;
+        left:9%;
+    }
+    #hs°1 .text{
+        background-color: #363C5D;
+        /* dimensions du texte*/
+            width:88.34%;
+            height: 10.75%;
+        color:#ffffff;
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 44px;
+        width:256.99px;
+        margin:0;
+        text-align:center;
+        /*léger décalage pour le recentrer un tout petit peu */
+        position:relative;
+        left:9%;
+    }
+
+.hsTitle img{ /* dimensions et position du titre */
+    width:55.83%;
+    position: relative;
+    left:22.08%;right:22.08%;
+    top:35%;
+    padding:50px;
+}
+
+
+/* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
+
+/* cette partie a pour but d'améliorer l'ergonomie de la page sous format tablette */
+
+@media only screen and (max-width:1050px){/* cette partie est dédiée aux ecrans faisant moins de 1050px*/
+    main{
+        height:2096px; 
+    }
+        #Journaux #n°1{
+            left:5%; /*modification du décalage pour centrer davantage */
+        }
+            #n°1 .text{ /* redimension de la zone de texte */
+                width:190.99px;
+                height: 9.75%;
+                font-size: 20px;
+                line-height: 35px;
+            }
+            #n°1 img{/* redimension de l'image */
+                height:320.57px;
+                width:210.99px;
+            }
+
+        #Journaux #n°2{
+            left:5%;/*modification du décalage pour centrer davantage */
+        }
+            #n°2 .text{/* redimension de la zone de texte */
+                width:210.99px;
+                height: 9.75%;
+                font-size: 20px;
+                line-height: 35px;
+            }
+            #n°2 img{/* redimension de l'image */
+                height:320.57px;
+                width:210.99px;
+            }
+
+        #Journaux #n°3{
+            left:5%;/*modification du décalage pour centrer davantage */
+        }
+            #n°3 .text{/* redimension de la zone de texte */
+                width:210.99px;
+                height: 9.75%;
+                font-size: 20px;
+                line-height: 35px;
+            }
+            #n°3 img{/* redimension de l'image */
+                height:320.57px;
+                width:210.99px;
+            }
+
+        #Journaux #n°4{
+            left:5%;/*modification du décalage pour centrer davantage */
+        }
+            #n°4 .text{/* redimension de la zone de texte */
+                width:210.99px;
+                height: 67.75%;
+                font-size: 20px;
+                line-height: 35px;
+            }
+            #n°4 img{/* redimension de l'image */
+                height:320.57px;
+                width:210.99px;
+            }
+
+    #hs°1 img{/* redimension de l'image */
+        height:320.57px;
+        width:210.99px;
+        left:5%;/*modification du décalage pour centrer davantage */
+    }
+    #hs°1 .text{/* redimension de la zone de texte */
+        background: #363C5D;
+        width:210.99px;
+        line-height: 44px;
+        left:5%;/*modification du décalage pour centrer davantage */
+    }
+        
+    .hsTitle img{
+        left:16.08%;/*modification du décalage pour centrer davantage */
+    }      
+}
+
+
+/* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
+
+/* cette partie a pour but d'améliorer l'ergonomie de la page sous format mobile */
+
+@media only screen and (max-width:650px){ /* cette partie est dédiée aux ecrans faisant moins de 1050px*/
+    main{
+        height:1586px;
+        top:226px;
+        position:relative;
+        /* redimension du grid */
+        grid-template-rows: 542px 1072.2px 253px 455.1px;
+    }
+    .journalTitle{
+        grid-area:2/1/3/6; /* nouvelle position dans le grid */
+        padding:30px;
+    }
+
+    /*----------------------------------------------*/
+    /* Section journaux */
+
+    .journalTitle img{ /* redimension du titre*/
+        width:41.52%;
+        position:relative;
+        left:29.23%;
+        right:29.23%;
+    }
+    #Journaux{ /*recalibrage du grid "Journaux"*/
+    grid-template-columns: 8.04% 38.55% 38.31% 1fr; 
+    grid-template-rows: 295.1px 72px 295.1px; 
+    }
+    #Journaux #n°1{
+        grid-area:1/2/2/3; /* nouvelle position dans le grid "Journaux"*/
+        position:relative;
+    }
+        #n°1 .text{
+            height: 10.75%;
+            font-size: 20px;
+            line-height: 32px;
+            width:146px;
+            position:relative; left:16%;
+        }
+        #n°1 img{ /* redimension de l'image */
+            height:251px;
+            width:166px;
+            position:relative; left:20%;
+        }
+
+    #Journaux #n°2{
+        grid-area:1/3/2/4; /* nouvelle position dans le grid "Journaux"*/
+        position:relative; 
+    }
+        #n°2 .text{
+            height: 10.75%;
+            font-size: 20px;
+            line-height: 32px;
+            width:166px;
+            position:relative; left:20%;
+        }
+        #n°2 img{ /* redimension de l'image */
+            height:251px;
+            width:166px;
+            position:relative; left:20%;
+        }
+
+    #Journaux #n°3{
+        grid-area:3/2/4/3;/* nouvelle position dans le grid "Journaux"*/
+        position:relative; 
+    }
+        #n°3 .text{
+            height: 10.75%;
+            font-size: 20px;
+            line-height: 32px;
+            width:166px;
+            position:relative; left:20%;
+        }
+        #n°3 img{ /* redimension de l'image */
+            height:251px;
+            width:166px;
+            position:relative; left:20%;
+        }
+
+    #Journaux #n°4{
+        grid-area:3/3/4/4;/* nouvelle position dans le grid "Journaux"*/
+        position:relative; 
+    }
+        #n°4 .text{
+            height: 10.75%;
+            font-size: 20px;
+            line-height: 32px;
+            width:166px;
+            margin:0;
+            position:relative; left:20%;
+        }
+        #n°4 img{ /* redimension de l'image */
+            height:251px;
+            width:166px;
+            position:relative; left:20%;
+        }
+
+    /* ----------------------------------------------- */
+    /* Section Hors-Serie */
+
+    #hs°1 img{/* redimension de l'image */
+        height:251px;
+        width:166px;
+        left:37%;
+    }
+
+    #hs°1 .text{/* redimension du texte */
+        font-size: 20px;
+        line-height: 40px;
+        width:166px;
+        left:37%;
+        
+    }
+
+    .hsTitle img{/* redimension du titre */
+        width:55.83%;
+        position: relative;
+        left:17.08%;right:22.08%;
+        top:35%;
+        padding:50px;
+    }   
+}

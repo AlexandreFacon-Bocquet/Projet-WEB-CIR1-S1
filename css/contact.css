@@ -1,0 +1,225 @@
+header{ /* Balise haut de page */ 
+    position:relative; /* Elément positionnait dans le flux normal de la page*/ 
+    top:0;
+    height: 0px;
+}
+main{ /* Se rapporte au main de la page HTML */
+   height:914px;
+   top:173px;
+   position:relative; /* Elément positionnait dans le flux normal de la page*/ 
+}
+footer{ /* Balise bas de page */ 
+    height:100px;
+    top:20px;
+    position:relative; /* Elément positionnait dans le flux normal de la page*/ 
+}
+main img{ /* Balise img appartenant au main */
+    position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    width: 471px; /* Largeur de 471px*/ 
+    height: 474px;
+    left: 4.44%;
+    top: 144px;
+}
+main h1{ /* Balise h1 appartenant au main */ 
+    position: relative; /* Elément positionnait dans le flux normal de la page*/ 
+    left: 60.5%;
+    right: 303px;
+    top: 28px;
+    bottom: 14.06%;
+    width:250px; /* Largeur de 250px*/ 
+
+    border-bottom: 5px solid #FDCF2D; /*marche pas*/
+
+    font-family:"Chau Philomene One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 55px;
+    color: #000000;
+
+}
+label{
+    top:50px;
+    position:relative; /* Elément positionnait dans le flux normal de la page*/ 
+    left:49.84%;
+    font-size:20px;
+    line-height: 27px;
+    font-family: 'Chau Philomene One';
+}
+
+#name{
+    position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    width: 41.88%;
+    height: 63px;
+    left:49.84%;
+    top: 169px;
+
+    background: #FFFFFF;
+    border: 1px solid #FDCF2D;
+    box-sizing: border-box;
+    padding-left: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px; /* Coins arrondis de 15px */ 
+}
+.lab2{
+    top:142px;
+}
+#mail{
+    position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    width: 41.88%;
+    height: 63px;
+    left:49.84%;
+    top: 309px;
+
+    background: #FFFFFF;
+    border: 1px solid #FDCF2D;
+    box-sizing: border-box;
+    padding-left: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px; /* Coins arrondis de 15px */ 
+}
+.lab3{
+    top:239px;
+}
+#message{
+    position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    width: 41.8%;
+    height: 220px;
+    left:49.84%;
+    top: 449px;
+
+    background: #FFFFFF;
+    padding-left: 18px;
+     /*   pbbbb sur le padding du message   */
+    border: 1px solid #FDCF2D;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /*Ombre */
+    border-radius: 15px; /* Coins arrondis de 15px */ 
+}
+.deroulant3>a{
+    color:#363C5d;
+}
+#soumission{
+    position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    left: 64.16%;
+    top: 696px;
+    width:192px; /* Largeur de 192px*/
+    height:65px; /*Hauteur de 65px*/
+
+    background: #FDCF2D;
+    border-radius: 15px; /* Coins arrondis de 15px */ 
+    font-family: 'Chau Philomene One'; /* Typographie*/
+    font-style: normal; /* Style de police*/
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+
+    color: #FFFFFF;
+}
+
+/*-------------------------------------ECRAN MAX 1050 PX (Tablette)-----------------------------------------------------*/
+
+@media only screen and (max-width:1050px){
+    #soumission{
+        left:58%;
+    }
+    main h1{
+        left:38%;
+    }
+    main img{
+        position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+        width: 351px; /* Largeur de 351px */
+        height: 354px;
+        left: 4.44%;
+        top: 244px;
+    }
+
+    label{left:54.84%;}
+    #name{left:54.84%;}
+
+    .lab2{top:142px;}
+    #mail{left:54.84%;}
+    
+    .lab3{top:239px;}
+    #message{left:54.84%;}
+    
+}
+
+/*-------------------------------------ECRAN MAX 650 PX (Mobile)-----------------------------------------------------*/
+
+@media only screen and (max-width:650px){
+    main{
+        height:1100px;
+    }
+    main h1{
+        top:25px;
+        left:28%;
+    }
+    main{
+        top:230px;
+        height:1214px;
+    }
+    main h1{
+        top:25px;
+        left:30%;
+        line-height: 24px;
+        /* voir pour la barre quie st mal mise */
+    }
+    main img{
+        width: 352px; /* Largeur de 352px */
+        height: 352px;
+        left:20%;
+        top:105px;
+    }
+    .lab1{
+        position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+        width: 176px; /* Largeur de 176px */
+        height: 21px;
+        left: 10%;
+        top: 452px;
+        font-size: 19px;
+        line-height: 21px;
+    }
+    #name{
+        position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+        width: 491px; /* Largeur de 491px */
+        height: 50px;
+        left: 9%;
+        top: 485px;
+    }
+    .lab2{
+        position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+        width: 176px; /* Largeur de 176px */
+        height: 21px;
+        left: 10%;
+        top: 572px;
+        font-size: 19px;
+        line-height: 21px;
+    }
+    #mail{
+        position: absolute;  /* Elément positionné par rapport à son parent le plus proche positionné */ 
+        width: 491px; /* Largeur de 491px */
+        height: 50px;
+        left: 9%;
+        top: 605px;
+    }
+    .lab3{
+        position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+        width: 176px; /* Largeur de 176px */
+        height: 21px;
+        left: 10%;
+        top: 692px;
+        font-size: 19px;
+        line-height: 21px;
+    }
+    #message{
+        width: 491px; /* Largeur de 491px */
+        height: 220px;
+        left: 9%;
+        top: 729px;
+    }
+    #soumission{
+        left: 33%;
+        top: 996px;
+    }
+}

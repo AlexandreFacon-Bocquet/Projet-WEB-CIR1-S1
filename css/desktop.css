@@ -1,0 +1,607 @@
+header{ /* Position du menu déroulant */
+    top:0;
+    height: 0px;
+    width: 100%;
+}
+main{ /* Position et dimension du main */
+   top:163px;
+   position:relative;
+   width:100%;
+   grid-template-rows: 395px 523px 570px 391px;/* Mise en place du grid */
+}
+footer{ /* Positionnement du pied de page*/ 
+    height:100px;
+    top:150px;
+    position:relative;
+}
+
+.toppage{/* Emplacement de la photo de bienvenue */
+    display:grid;
+    grid-row: 1/2;
+    z-index:1;
+}
+.journalMoment{ /* Emplacement de la section journal du moment */
+    display:grid;
+    grid-row: 2/3;
+    height:523px;
+}
+.nosArchives{/* Emplacement de la section archive */
+    display:grid;
+    grid-row:3/4;
+    height:570px;
+}
+.contact{/* Emplacement de la section contact */
+    display:grid;
+    grid-row: 4/5;
+    height:391px;
+}
+
+/* ------------------------------------ */
+
+/* toppage section */
+
+.toppage{ /* Création du grid pour la mise en page de la photo de bienvenue */
+    grid-template-columns: 3.33% 23.61% 73.06%;
+    grid-template-rows: 54.97% 11.64% 6.09% 7.4% 19.9%;
+    /* grid de 3 colonnes et 5 lignes */
+}
+
+.imgDesktop{
+    grid-area:1/1/6/4; /* Position de l'image sur l'intégralité de la zone */
+    width:100%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); /* Création d'un effet ombragé*/
+    z-index:0; /* Mise au second plan de l'image */
+}
+
+.imgDesktop2{
+    display:none; /* cette image est destinée à la version mobile car elle n'est pas exctement pareille */
+}
+
+.etiquette_index{
+    grid-area:2/2/3/3; /* positionnement de l'étiquette */ 
+    z-index:1; /* Mise au premier plan de l'étiquette */ 
+    width:70px; /* Longueur de l'étiquette */ 
+    height:20px; /* Hauteur de l'étiquette */
+    /* création de marges internes : */
+    padding-left:4.91%; padding-right: 4.71%;
+    padding-top:4.04%; padding-bottom:4.04%;
+    background: #FDCF2D; /* couleur de l'étiquette */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /* création d'un effet ombragé sur l'étiquette*/
+    border-radius: 10px; /* création d'un angle arrondi */
+    font-family: 'Montserrat'; /* Police d'écriture */
+    font-style: normal;
+    font-weight: bold; /* texte mis en gras */
+    font-size: 18px; /* taille de la police */
+    line-height: 22px; /* Hauteur de la ligne */
+    color: #363C5D; /* couleur d'écriture */
+}
+
+.titre_etiquette{
+    grid-area:4/2/5/3;/* positionnement du texte */ 
+    width: 330px; /* Longueur du texte */
+    height: 30px; /* Hauteur du texte */
+    z-index:1; /* Mise au premier plan */
+    font-family: 'Montserrat';/* Police d'écriture */
+    font-style: normal;
+    font-weight: bold;/* texte mis en gras */
+    font-size: 25px;/* taille de la police */
+    line-height: 30px; /* Hauteur de la ligne */
+    color: #FFFFFF; /* couleur d'écriture */
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); /* création d'un effet ombragé sur le texte*/
+}
+
+
+/* ---------------------------------------- */
+
+/* Dimensions des Images des Journaux */
+
+.maj4{
+    width: 230px;
+    height: 325.06px;
+}
+.majHS1{
+    width: 230px;
+    height: 325.06px;
+}
+.Ink1{
+    width: 230px;
+    height: 325.46px;
+}
+.Ink2{
+    width: 230px; 
+    height: 325.46px;
+}
+.Ink3{
+    width: 230px;
+    height: 325.46px;
+}
+
+/* ------------------------------------------- */
+
+
+/*contact section*/
+
+
+.contact{/* Création du grid pour la mise en page de la section contact */
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 30% 70%;
+    /* tableau de 4 colonnes et 2 lignes */
+}
+
+.contact h1{ /* Paramètres du titre de la section */
+    grid-area:1/1/2/5; /* Position dans le grid */
+    position:relative;
+    text-align: center; /* Texte centré*/
+    width: 202px; /* Largeur de la zone de texte*/
+    left:40%; /* texte positionné à 40% du bord gauche de la page */
+    font-family: 'Chau Philomene One'; /* Police d'écriture */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px; /* Taille de la police */
+    line-height: 48px; /* hauteur de la ligne */
+    color: #000000; /* Couleur d'écriture */
+    border-bottom: 5px solid #59E4AD; /*création d'un trait de couleur en dessous du texte */
+}
+
+#contact{
+    grid-area:2/1/3/2;/* Position dans le grid de la partie telephone*/
+}
+#email{
+    grid-area:2/2/3/3;/* Position dans le grid de la partie email*/
+}
+#local{
+    grid-area:2/3/3/4;/* Position dans le grid  de la partie Localisation*/
+}
+#pres{
+    grid-area:2/4/3/5;/* Position dans le grid de la partie président*/
+}
+
+.Mail, .Phone, .Localisation, .President{
+    position:relative;
+    /* Dimensions des images contact : */
+    width:90px;
+    height:90px;
+    left:38%; /* Positionnement par rapport au bord gauche de la page */
+}
+
+.contact h3, .contact p{
+    text-align: center; /*alignement centré du texte*/
+}
+
+.contact h3{
+    font-family: 'Montserrat';/* Police d'écriture */
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;/* Taille de la police */
+    line-height: 10px;/* Hauteur de la ligne*/
+    color: #363C5D;/* couleur du texte*/
+}
+
+.contact p{
+    font-family: 'Montserrat';/* Police d'écriture */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;/* Taille de la police */
+    line-height: 5px;/* Hauteur de la ligne*/
+    color: #000000;/*couleur du texte*/
+}
+
+/* -------------------------------------------- */
+
+
+/* Archive section */
+
+
+.nosArchives{/* Création du grid pour la mise en page de la section archives */
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 20% 80%;
+    /* Tableau de 3 colonnes et 2 lignes */
+}
+
+.nosArchives h1{
+    grid-area:1/2/2/3;/* Position dans le grid */
+    position:relative;
+    text-align: center;
+    width: 180px;
+    left:25%; /* décalage par rapport au bord gauche */
+    font-family: 'Chau Philomene One';/* Police d'écriture */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;/* Taille de la police */
+    line-height: 48px; /* hauteur de la ligne*/
+    color: #000000;/* couleur du text*/
+    border-bottom: 5px solid #FDCF2D; /* création du trait de couleur en dessous du texte*/
+}
+
+.nosArchives p{
+    /* text-align:center; */
+    position:relative;
+    left:32%;/* décalage par rapport au bord gauche */
+    font-family: 'Montserrat';/* Police d'écriture */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;/* Taille de la police */
+    line-height: 30px;/*Hauteur de la ligne*/
+}
+
+#ink1{grid-area:2/1/3/2;/* Position dans le grid */}
+#ink1 img{position:relative;left:20%;} /* Paramètres de l'image */
+#ink2{grid-area:2/2/3/3;/* Position dans le grid */}
+#ink2 img{position:relative;left:20%;} /* Paramètres de l'image */
+#ink3{grid-area:2/3/3/4;/* Position dans le grid */}
+#ink3 img{position:relative;left:20%;} /* Paramètres de l'image */
+
+/* --------------------------------------- */
+
+
+/* journal section */
+
+
+.journalMoment{/* Création du grid pour la mise en page de la section Journal du moment */
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 80%;
+    /* Tableau à 2 colonnes et 2 lignes */
+}
+
+.journalMoment .title{ /* Paramètres du titre de la section */
+    grid-area:1/1/2/3;/* Position dans le grid */
+    position:relative;
+    width: 262px; /* Largeur du titre */
+    height: 48px; /* hauteur du titre */
+    left: 40%; /* décalage par rapport au bord gauche */
+    font-family: 'Chau Philomene One';/* Police d'écriture */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;/* Taille de la police */
+    line-height: 48px;
+    color: #000000; /*Couleur du texte */
+    border-bottom: 5px solid #BCCAF8; /* création du trait de couleur en dessous du texte */
+}
+
+#Maj4{
+    grid-area:2/1/3/2;/* Position dans le grid "Journal du moment" de la section du journal 4 */
+    position:relative;
+}
+
+#Maj4{ /* Création du grid pour la mise en page de la partie Maj 4 */
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30.1% 9.8% 45.1%;
+    /* tableau de 2 colonnes et 3 lignes */
+}
+    #Maj4 img{
+        grid-area: 1/1/4/3;/* Position dans le grid "Maj 4" */
+        position:relative;
+        left:10%;/* décalage par rapport au bord gauche */
+    }
+    #Maj4 h2{
+        grid-area: 2/2/3/3;/* Position dans le grid "Maj 4" */
+        position:relative;
+    }
+
+#Majhs{
+    grid-area:2/2/3/3;/* Position dans le grid "Journal du moment" de la section "Maj HS"*/
+    position:relative;
+}
+#Majhs{/* Création du grid pour la mise en page de la partie Maj HS */
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30.1% 9.8% 45.1%;
+    /* tableau de 2 colonnes et 3 lignes*/
+}
+    #Majhs img{
+        grid-area: 1/1/4/3;/* Position dans le grid "Maj HS2*/
+        position:relative;
+        left:5%;/* décalage par rapport au bord gauche */
+    }
+    #Majhs h2{
+        grid-area: 2/2/3/3;/* Position dans le grid "Maj HS" */
+        position:relative;
+    }
+
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+
+
+/* partie responsive pour Tablettes */
+
+
+@media only screen and (max-width:1170px) and (min-width:650px){ /* cette partie est dédiée aux ecrans faisant entre 1170px et 650px*/
+    /* Dimensions des images contact */
+    .Mail, .Phone, .Localisation, .President{
+        position:relative;
+        width:90px;
+        height:90px;
+        left:27%; /* décalage par rapport au bord gauche */
+    }
+    /* -------------------------- */
+
+    /* Section Journal du moment */
+
+
+    .journalMoment{ /* Redimension du grid */
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 130px 325.25px 42px;
+    }
+
+    .journalMoment .title{
+        grid-area:1/1/2/3;/* Position dans le grid */
+        left:35%;/* décalage par rapport au bord gauche */
+    }
+
+    #Maj4{
+        display:inline-block; /* Suppression du grid précédent */
+    }
+        #Maj4 img{
+            grid-area: 2/1/3/2;/* Position dans le grid */
+            position:relative;
+            left:30%;/* décalage par rapport au bord gauche */
+        }
+        #Maj4 h2{
+            grid-area: 3/1/4/2;/* Position dans le grid */
+            position:relative;
+            left:30%;/* décalage par rapport au bord gauche */
+        }
+
+    #Majhs{
+        display: inline-block;/* Suppression du grid précédent */
+    }
+        #Majhs img{
+            grid-area: 2/2/3/3;/* Position dans le grid */
+            position:relative;
+            left:15%;/* décalage par rapport au bord gauche */
+        }
+        #Majhs h2{
+            grid-area: 3/2/4/3;/* Position dans le grid */
+            position:relative;
+            width:230px;
+            left:20%;/* décalage par rapport au bord gauche */
+        }
+    
+    /* -------------------------- */
+
+
+    /* Redimensions des images des Journaux */
+
+
+    .Ink1{
+        width: 200px;
+        height: 295.46px;
+    }
+    .Ink2{
+        width: 200px;
+        height: 295.46px;
+    }
+    .Ink3{
+        width: 200px;
+        height: 295.46px;
+    }
+
+    /* --------------------------- */
+
+
+    /* Archive section */
+
+    .nosArchives img{
+        float:center; /* permet de centrer les images dans la cellule du grid */
+    }
+
+    #ink1 img{position:relative;left:10%;}
+    #ink2 img{position:relative;left:10%;}
+    #ink3 img{position:relative;left:10%;}
+
+    .nosArchives p{
+        text-align:none; /* aucun alignement de texte */
+        position:relative;
+        left:0%;/* décalage par rapport au bord gauche */
+    }
+}
+
+
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */
+
+
+/* partie responsive pour Mobiles */
+
+
+
+@media only screen and (max-width:650px){ /* cette partie est dédiée aux écrans faisant moins de 650px*/
+    /* Modification du grid général */
+    *{grid-template-rows: 215px 560px 660px 360px;}
+
+    /* Baisse du main */
+    main{
+        top:240px;
+    }
+
+    /* ---------------------------------------- */
+
+    /* toppage section */
+
+
+    .toppage{ /* Redimension du grid */
+        grid-template-columns: 4.56% 60.25% 35.18%;
+        grid-template-rows: 54.41% 14.88% 2.79% 10.23% 17.67%;
+    }
+
+    .imgDesktop{
+        display:none; /* on fait disparaitre l'image dédié aux grands ecrans … */
+    }
+
+    .imgDesktop2{ /* … Pour faire apparaitre l'imge dédiée aux telephones */
+        display:grid;
+        grid-area:1/1/6/4;/* Position dans le grid */
+        width: 100%;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); /* création d'un effet ombragé sous l'image */
+        border-radius: 15px; /* créatiob d'un bord arrondi */
+    }
+
+    .etiquette_index{
+        border-radius: 20px; /* modification du bord arrondi */
+    }
+
+    /* ------------------------------------ */ 
+
+
+    /* Redimensions des images */
+
+    .maj4{
+        width: 164px;
+        height: 223px;
+    }
+    .majHS1{
+        width: 164px;
+        height: 223px;
+    }
+    .Ink1{
+        width: 144px;
+        height: 203px;
+    }
+    .Ink2{
+        width: 144px;
+        height: 203px;
+    }
+    .Ink3{
+        width: 144px;
+        height: 203px;
+    }
+
+    /* ------------------------------------ */
+
+    /* section journal du moment */
+
+    .journalMoment{ /* redimension du grid*/
+        display:grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 14.28% 36.25% 7.14% 36.25% ;
+    }
+
+    .journalMoment .title{
+        grid-area:1/1/2/2;/* Position dans le grid */
+        text-align: center;
+        width: 210px; /* longueur de la zone de texte */
+        left:35%;/* décalage par rapport au bord gauche */
+        font-size: 26px;/* Taille de la police */
+        line-height: 60px;
+        padding:0; /*pas de marge interne */
+        margin:5px; /* mise en place d'une marge externe */
+    }
+
+    .journalMoment #Maj4{
+        grid-area:2/1/3/2;/* Position dans le grid */
+    }
+
+    .journalMoment #Majhs{
+        grid-area:4/1/5/2;/* Position dans le grid */
+        left:24px;
+    }
+
+    #Maj4{/* redimension du grid "Maj4"*/
+        display:grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 34.5% 1fr 34.5%;
+    }
+    #Majhs{ /* redimension du grid "MajHS"*/
+        display:grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 34.5% 1fr 34.5%;
+    }
+
+    #Maj4 h2{
+        position:relative;
+        font-family: "Chau Philomene One";/* Police d'écriture */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;/* Taille de la police */
+        line-height: 27px;
+        text-align: center; /* centrage du texte */
+        color: #363C5D;/*Couleur du texte */
+    }
+    #Majhs h2{
+        position:relative;
+        font-family: "Chau Philomene One";/* Police d'écriture */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;/* Taille de la police */
+        line-height: 27px;
+        text-align: center; /* centrage du texte */
+        color: #363C5D;/*Couleur du texte */
+    }
+
+    /* --------------------------------- */
+
+    /* section archives */
+
+
+    .nosArchives{ /* redimension du grid*/
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 15.60% 38.18% 7.57% 38.18%;
+    }
+
+    .nosArchives h1{
+        grid-area:1/1/2/3;/* Position dans le grid */
+        width: 150px;
+        left:37%;/* décalage par rapport au bord gauche */
+        font-size: 26px;/* Taille de la police */
+        line-height: 50px;
+    }
+
+    #ink1{grid-area:2/1/3/2;/* Position dans le grid */}
+    #ink1 img{position:relative;left:25%;}
+    #ink2{grid-area:2/2/3/3;/* Position dans le grid */}
+    #ink2 img{position:relative;left:25%;}
+    #ink3{grid-area:4/1/5/2;/* Position dans le grid */}
+    #ink3 img{position:relative;left:25%;}
+
+    .nosArchives p{
+        font-weight: 600;
+        font-size: 15px;/* Taille de la police */
+        line-height: 20px;
+    }
+
+    /* ------------------------------------ */
+
+    /* section contact */
+
+    .contact{/* redimension du grid */
+        grid-template-rows: 27.77% 36.11% 36.11%;
+        grid-template-columns: 50% 50%;
+    }
+
+    .contact h1{grid-area: 1/1/2/3;/* Position dans le grid */}
+    #contact{grid-area:2/1/3/2;/* Position dans le grid */}
+    #email{grid-area:2/2/3/3;/* Position dans le grid */}
+    #local{grid-area:3/1/4/2;/* Position dans le grid */}
+    #pres{grid-area:3/2/4/3;/* Position dans le grid */}
+
+    .Mail, .Phone, .Localisation, .President{
+        /* redimension des images*/
+        width:60px;
+        height:60px;
+        left:40%;/* décalage par rapport au bord gauche */
+        right:40%;/* décalage par rapport au bord droit */
+    }
+
+    .contact h3, .contact p{
+        text-align: center;
+    }
+
+    .contact h3{
+        font-family: 'Montserrat';/* Police d'écriture */
+        font-style: normal;
+        font-weight: 900;
+        font-size: 12px;/* Taille de la police */
+        line-height: 10px;
+        color: #363C5D;/*Couleur du texte */
+    }
+    
+    .contact p{
+        font-family: 'Montserrat';/* Police d'écriture */
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;/* Taille de la police */
+        line-height: 5px;
+        color: #000000;/*Couleur du texte */
+    }
+}

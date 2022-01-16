@@ -1,0 +1,222 @@
+header{ /* Balise haut de page */ 
+    position:relative;
+    top:0;
+    height: 0px;
+}
+main{ /* Balise corps de la page de connexion */ 
+   height:663px;
+   top:173px;
+   position:relative;
+}
+footer{ /* Balise bas de page */ 
+    height:100px;
+    top:20px;
+    position:relative;
+}
+ main h1{ /* Balise h1 appartenant au main */ 
+    position:relative;
+    top:43px;
+    left:18.82%;
+    width:206px;
+    font-family: 'Chau Philomene One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    color: #363C5D;
+
+    border-bottom: 4px solid #BCCAF8;
+    z-index:1;
+}
+main img{ /* Balise img appartenant au main */
+    position:absolute;
+    top:81px;
+    left:45.76%;
+    width: 665px;
+    height: 369px;
+    z-index:0;
+}
+label{ /* Balise label */
+    position:absolute;
+    left:7.22%;
+    font-family: 'Chau Philomene One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    z-index:1;
+    color: #363C5D;
+}
+.lab1{
+    top:157px;
+}
+#mail{
+    position: absolute;
+    width: 37.43%;
+    height: 60px;
+    left:7.22%;
+    top: 192px;
+    padding-left:25px;
+    background: #FFFFFF;
+    border: 1px solid #363C5D;
+    box-sizing: border-box;
+    border-radius: 15px;
+    z-index:1;
+}
+.lab2{
+    top:301px;
+}
+#password{
+    position: absolute;
+    width: 37.43%;
+    height: 60px;
+    left:7.22%;
+    top: 341px;
+    padding-left:25px;
+    background: #FFFFFF;
+    /* Ink'ISEN / Bleu nuit */
+    border: 1px solid #363C5D;
+    box-sizing: border-box;
+    border-radius: 15px;
+    z-index:1;
+}
+main a{
+    text-decoration: underline;
+    color:#363C5D;
+    position: absolute;
+    width: 142px;
+    height: 16px;
+    left:7.22%;
+    top: 412px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+}
+main a:hover{
+    color:#59E4AD;
+}
+#soumission{
+    background: #363C5D;
+    border-radius: 15px;
+    top:511px;
+    left:20%;
+    position: absolute;
+
+    font-family: 'Chau Philomene One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+#souvenir{
+    position: absolute;
+    top:460px;
+    left:8%;
+}
+.souvenir:hover{
+    text-shadow: 1px 1px 1px #59E4AD ;
+}
+.souvenir{
+    position: absolute;
+    top:458px;
+    left:12%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+
+}
+
+/*-------------------------------------ECRAN MAX 1050 PX (Tablette)-----------------------------------------------------*/
+
+@media only screen and (max-width:1050px){
+    main img{
+        position:absolute;
+        top:181px;
+        left:50%;
+        width: 355px;
+        height: 199px;
+        z-index:0;
+    }
+}
+    @media only screen and (max-width:650px){
+        main{
+            left:3%;
+            top:230px;
+            height:854px;
+        }
+        main h1{
+            top:25px;
+            left:28%;
+        }
+        main img{
+            width: 427px;
+            height: 261px;
+            left: 0px;
+            top:105px;
+            margin: 0 10%;
+        }
+        .lab1{
+            position: absolute;
+            width: 176px;
+            height: 21px;
+            left: 10%;
+            top: 392px;
+            font-size: 19px;
+            line-height: 21px;
+        }
+        #mail{
+            position: absolute;
+            width: 75.17%;
+            height: 50px;
+            left: 9%;
+            top: 425px;
+        }
+        .lab2{
+            position: absolute;
+            width: 176px;
+            height: 21px;
+            left: 10%;
+            top: 502px;
+            font-size: 19px;
+            line-height: 21px;
+        }
+        #password{
+            position: absolute;
+            width: 75.17%;
+            height: 50px;
+            left: 9%;
+            top: 545px;
+        }
+        #soumission{
+            left: 34.11%;
+            top: 676px;
+        }
+        main a{
+            left: 9%;
+            top: 603px;
+        }
+        #souvenir{
+            position: absolute;
+            top:650px;
+            left:10%;
+        }
+        .souvenir{
+            position: absolute;
+            top:648px;
+            left:14%;
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 200;
+            font-size: 18px;
+            line-height: 22px;
+            color: #000000;
+        
+        }
+    }
+

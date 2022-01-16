@@ -1,0 +1,1287 @@
+header{ /* Se rapporte au header (haut de page) */ 
+    position:relative; /* Elément positionnait dans le flux normal de la page*/ 
+    top:0; /* Décalage vertical de 0px */
+    height: 0px; /* Hauteur de 0px */
+}
+main{ /* Se rapporte au main de la page HTML */
+   height:9154px; /* Hauteur de 9154px */
+   top:163px; /* Décalage vertical de 163px */
+   position:relative; /* Elément positionnait dans le flux normal de la page*/ 
+}
+footer{ /* Se rapporte à la partie footer (bas de page) */
+    height:100px; /* Hauteur de 100px */
+    top:20px; /* Décalage vertical de 20px */
+    position:relative; /* Elément positionnait dans le flux normal de la page*/ 
+}
+
+/* ------------------------------------------------------------------------------------*/
+
+main img{ /* */
+    height:5.98%; /* Hauteur de 5.98% */
+    width:100%;
+    position:relative; /* Elément positionnait dans le flux normal de la page*/ 
+    top:1px; /* Décalage vertical de 1px */
+    left:0%;
+    right: 0%;
+}
+.deroulant5>a{
+    color:#59E4AD;
+}
+h1{
+    font-family: "Chau Philomene One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 48px;
+    color: #000000;
+    text-align:center;
+    display:inline;
+}
+
+/* -------------------------------------------BDE------------------------------------------------*/
+
+#bde h1{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    border-bottom: 4px solid #FDCF2D;
+    left:43.54%;
+    top:572px; /* Distance du haut est de 572px */
+    width:186px;
+}
+#bde img{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    height:318px; /* Hauteur de 318px */
+    width:318px;
+    left: 13.88%;
+    top:730px; /* Distance du haut est de 730px */
+    bottom:8377; /* Distance du bas est de 572px */
+    right:auto;
+}
+#bde pre{
+    position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    width: 850px;
+    height: 210px; /* Hauteur de 210px */
+    left: 48.68%; 
+    top: 752px; /* Distance du haut est de 752px */
+    right:auto;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+/* ---------------------------------------BDP-------------------------------------------------------*/
+#bdp h1{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    border-bottom: 4px solid #59E4AD;
+    left:40.76%;
+    top:1105px;
+    width:265px;
+}
+#bdp img{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    height:318px; /* Hauteur de 318px */
+    width:318px;
+    right:11.88%;
+    top:1240px;
+    left:auto;
+}
+#bdp pre{
+    position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    width: 850px;
+    height: 210px; /* Hauteur de 210px */
+    right:48.68%;
+    top: 1254px;
+    left:auto;
+    text-align:right;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+/*----------------------------------------BDS-----------------------------------------------------*/
+
+#bds h1{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    border-bottom: 4px solid #363C5D;
+    left:46.11%;
+    top:1639px;
+    width:112px;
+}
+#bds img{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    height:318px; /* Hauteur de 318px */
+    width:318px;
+    left: 13.88%;
+    top:1750px;
+    bottom:8377;
+    right:auto;
+}
+#bds pre{
+    position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    width: 850px;
+    height: 210px; /* Hauteur de 210px */
+    left: 48.68%;
+    top: 1788px;
+    right:auto;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+/*--------------------------------------------skisen-------------------------------------------*/
+#skisen h1{ 
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    border-bottom: 4px solid #BCCAF8;
+    left:46.88%;
+    top:2171px;
+    width:91px;
+}
+#skisen img{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    height:318px; /* Hauteur de 318px */
+    width:318px;
+    right:11.88%;
+    top:2306px;
+    left:auto;
+}
+#skisen pre{
+    position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    width: 850px;
+    height: 210px; /* Hauteur de 210px */
+    right:48.68%;
+    top: 2350px;
+    left:auto;
+    text-align:right;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+/*--------------------------------------------Ink'ISEN------------------------------------------*/
+
+#inkisen h1{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    border-bottom: 4px solid #FDCF2D;
+    left:45.76%;
+    top:2704px;
+    width:122px;
+}
+#inkisen img{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    height:318px; /* Hauteur de 318px */
+    width:318px;
+    left: 13.88%;
+    top:2839px;
+    right:auto;
+}
+#inkisen pre{
+    position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    width: 850px;
+    height: 210px; /* Hauteur de 210px */
+    left: 48.68%;
+    top: 2869px;
+    right:auto;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+/*--------------------------------------vinyle club----------------------------------------------*/
+
+#vinyleclub h1{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    border-bottom: 4px solid #BCCAF8;
+    left:44.79%;
+    top:3224px;
+    width:148px;
+}
+#vinyleclub img{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    height:318px; /* Hauteur de 318px */
+    width:318px;
+    right:11.88%;
+    top:3358px;
+    left:auto;
+}
+#vinyleclub pre{
+    position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    width: 850px;
+    height: 210px; /* Hauteur de 210px */
+    right:48.68%;
+    top: 3412px;
+    left:auto;
+    text-align:right;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+/*---------------------------------------BDA---------------------------------------------------*/
+#bda h1{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    border-bottom: 4px solid #363C5D;
+    left:45.55%;
+    top:3704px;
+    width:128px;
+}
+#bda img{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    height:318px; /* Hauteur de 318px */
+    width:318px;
+    left: 13.88%;
+    top:3905px;
+    right:auto;
+}
+#bda pre{
+    position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    width: 850px;
+    height: 210px; /* Hauteur de 210px */
+    left: 48.68%;
+    top: 3945px;
+    right:auto;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+/*----------------------------------------human'isen---------------------------------------------*/
+
+#humanisen h1{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    border-bottom: 4px solid #FDCF2D;
+    left:44.09%;
+    top:4303px;
+    width:168px;
+}
+#humanisen img{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    height:318px; /* Hauteur de 318px */
+    width:318px;
+    right:11.88%;
+    top:4438px;
+    left:auto;
+}
+#humanisen pre{
+    position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    width: 850px;
+    height: 210px; /* Hauteur de 210px */
+    right:48.68%;
+    top: 4492px;
+    left:auto;
+    text-align:right;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+/*--------------------------------------mi-temps------------------------------------------------*/
+#mi h1{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    border-bottom: 4px solid #59E4AD;
+    left:43.75%;
+    top:4836px;
+    width:180px;
+}
+#mi img{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    height:318px;
+    width:318px; /* Hauteur de 318px */
+    left: 13.88%;
+    top:4971px;
+    right:auto;
+}
+#mi pre{
+    position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    width: 850px;
+    height: 210px;
+    left: 48.68%;
+    top: 5020px;
+    right:auto;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+/*----------------------------------ROCK JUNIA---------------------------------------------------*/
+
+#rock h1{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    border-bottom: 4px solid #FDCF2D;
+    left:42.56%;
+    top:5369px;
+    width:186px;
+}
+#rock img{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    height:318px; /* Hauteur de 318px */
+    width:318px;
+    left: 13.88%;
+    top:5504px;
+    right:auto;
+}
+#rock pre{
+    position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    width: 850px;
+    height: 210px; /* Hauteur de 210px */
+    left: 48.68%;
+    top: 5558px;
+    right:auto;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+/*--------------------------------Junia space asso----------------------------------------------*/
+#space h1{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    border-bottom: 4px solid #363C5D;
+    left:38.88%;
+    top:5902px;
+    width:319px;
+}
+#space img{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    height:318px; /* Hauteur de 318px */
+    width:318px;
+    right:11.88%;
+    top:6037px;
+    left:auto;
+}
+#space pre{
+    position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    width: 850px;
+    height: 210px; /* Hauteur de 210px */
+    right:48.68%;
+    top: 6121px;
+    left:auto;
+    text-align:right;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+/*--------------------------------Apoph'isen-----------------------------------------------------*/
+
+#apoph h1{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    border-bottom: 4px solid #BCCAF8;
+    left:44.44%;
+    top:6436px;
+    width:161px;
+}
+#apoph img{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    height:318px; /* Hauteur de 318px */
+    width:318px; 
+    left: 13.88%;
+    top:6570px;
+    right:auto;
+}
+#apoph pre{
+    position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    width: 850px;
+    height: 210px; /* Hauteur de 210px */
+    left: 48.68%;
+    top: 6579px;
+    right:auto;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+/*---------------------------Plus belle la vigne--------------------------------------------------*/
+
+#vigne h1{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    border-bottom: 4px solid #59E4AD;
+    left:41.52%;
+    top:6969px;
+    width:244px;
+}
+#vigne img{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    height:318px; /* Hauteur de 318px */
+    width:318px;
+    left: 13.88%;
+    top:7104px;
+    right:auto;
+}
+#vigne pre{
+    position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    width: 850px;
+    height: 210px; /* Hauteur de 210px */
+    left: 48.68%;
+    top: 7138px;
+    right:auto;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+/*-------------------------Laser game junia-------------------------------------------------------*/
+
+#lasergame h1{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    border-bottom: 4px solid #FDCF2D;
+    left:41.73%;
+    top:7503px;
+    width:234px;
+}
+#lasergame img{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    height:318px;
+    width:318px;
+    right:11.88%;
+    top:7637px;
+    left:auto;
+}
+#lasergame pre{
+    position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    width: 850px;
+    height: 210px;
+    right:48.68%;
+    top: 7706px;
+    left:auto;
+    text-align:right;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+/*----------------------------------------Tech'isen----------------------------------------------*/
+
+#techisen h1{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    border-bottom: 4px solid #363C5D;
+    left:44.44%;
+    top:8026px;
+    width:145px;
+}
+#techisen img{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    height:318px;
+    width:318px;
+    left: 13.88%;
+    top:8170px;
+    right:auto;
+}
+#techisen pre{
+    position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    width: 850px;
+    height: 210px;
+    left: 48.68%;
+    top: 8209px;
+    right:auto;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+/*-------------------------------------Isen concept------------------------------------------------*/
+
+#isenconcept h1{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    border-bottom: 4px solid #FDCF2D;
+    left:43.54%;
+    top:8567px;
+    width:186px;
+}
+#isenconcept img{
+    position:absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    height:318px;
+    width:318px;
+    right:11.88%;
+    top:8661px;
+    left:auto;
+}
+#isenconcept pre{
+    position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+    width: 850px;
+    height: 210px;
+    right:48.68%;
+    top: 8730px;
+    left:auto;
+    text-align:right;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+
+/*-------------------------------------ECRAN MAX 1050 PX (Tablette)-----------------------------------------------------*/
+
+    @media only screen and (max-width:1050px){
+        main{
+            height:7054px;
+            top:163px;
+            width:100%;
+         }
+
+/* --------------------BDE -------------------*/
+
+        #bde h1{
+            left:40.54%;
+            width:186px;
+            top:382px;
+        }
+        #bde img{
+            height:218px;
+            width:218px;
+            left: 9%;
+            top: 522px;
+        }
+        #bde pre{
+            width: 350px;
+            height: 210px;
+            left: 45%;
+            top: 518px;
+            right:auto;
+            font-size: 15px;
+            line-height: 27px;
+        }
+
+/* --------------------BDP -------------------*/
+
+        #bdp h1{
+            left:33.76%;
+            top:805px;
+            width:265px;
+        }
+        #bdp img{
+            height:218px;
+            width:218px;
+            right:8%;
+            top:955px;
+        }
+        #bdp pre{
+            position: absolute; /* Elément positionné par rapport à son parent le plus proche positionné */ 
+            width: 850px;
+            height: 210px;
+            right:43.76%;
+            top: 954px;
+            font-size: 15px;
+            line-height: 27px;
+        }
+
+/* --------------------BDS -------------------*/
+
+        #bds h1{
+            left:46.11%;
+            top:1239px;
+            width:112px;
+        }
+        #bds img{
+            height:218px;
+            width:218px;
+            left: 9%;
+            top:1350px;
+        }
+        #bds pre{
+            width: 350px;
+            height: 210px;
+            left: 45%;
+            top: 1358px;
+            font-size: 15px;
+            line-height: 27px;
+        }
+
+/* --------------------SKISEN -------------------*/
+
+        #skisen h1{
+            left:41.88%;
+            top:1671px;
+            width:91px;
+        }
+        #skisen img{
+            height:218px;
+            width:218px;
+            right:8.88%;
+            top:1800px;
+        }
+        #skisen pre{
+            width: 850px;
+            height: 210px;
+            right:41.76%;
+            top: 1820px;
+            font-size: 14.5px;
+            line-height: 27px;
+        }
+
+/* --------------------INK ISEN -------------------*/
+
+        #inkisen h1{
+            left:39.76%;
+            top:2104px;
+            width:122px;
+        }
+        #inkisen img{
+            height:218px;
+            width:218px;
+            left: 8%;
+            top:2220px;
+        }
+        #inkisen pre{
+            width: 850px;
+            height: 210px;
+            left: 40.68%;
+            top: 2229px;
+            font-size: 15px;
+            line-height: 27px;
+        }
+
+/* --------------------VINYLE ISEN -------------------*/
+
+        #vinyleclub h1{
+            left:38.79%;
+            top:2524px;
+            width:148px;
+        }
+        #vinyleclub img{
+            height:218px;
+            width:218px;
+            right:8%;
+            top:2658px;
+            left:auto;
+        }
+        #vinyleclub pre{
+            width: 850px;
+            height: 210px;
+            right:41.76%;
+            top: 2662px;
+            font-size: 15px;
+            line-height: 27px;
+        }
+
+/* --------------------BDA -------------------*/
+
+        #bda h1{
+            left:39.76%;
+            top:2924px;
+            width:122px;
+        }
+        #bda img{
+            height:218px;
+            width:218px;
+            left: 8%;
+            top:3050px;
+        }
+        #bda pre{
+            width: 850px;
+            height: 210px;
+            left: 40.68%;
+            top: 3059px;
+            font-size: 15px;
+            line-height: 27px;
+        }
+  
+/* --------------------HUMAN ISEN -------------------*/
+
+        #humanisen h1{
+            left:38.79%;
+            top:3324px;
+            width:158px;
+        }
+        #humanisen img{
+            height:218px;
+            width:218px;
+            right:8%;
+            top:3458px;
+        }
+        #humanisen pre{
+            width: 850px;
+            height: 210px;
+            right:41.76%;
+            top: 3452px;
+            font-size: 15px;
+            line-height: 27px;
+        }
+
+/* --------------------MI TEMPS -------------------*/
+
+        #mi h1{
+            left:35.76%;
+            top:3724px;
+            width:182px;
+        }
+        #mi img{
+            height:218px;
+            width:218px;
+            left: 8%;
+            top:3850px;
+        }
+        #mi pre{
+            width: 850px;
+            height: 210px;
+            left: 40.68%;
+            top: 3859px;
+            font-size: 15px;
+            line-height: 27px;
+        }
+
+/* --------------------ROCK JUNIA -------------------*/
+
+        #rock h1{
+            left:35.76%;
+            top:4124px;
+            width:192px;
+        }
+        #rock img{
+            height:218px;
+            width:218px;
+            left: 8%;
+            top:4250px;
+        }
+        #rock pre{
+            width: 850px;
+            height: 210px;
+            left: 40.68%;
+            top: 4279px;
+            font-size: 15px;
+            line-height: 27px;
+        }
+
+/* --------------------JUNIA SPACE -------------------*/
+
+        #space h1{
+            left:28.79%;
+            top:4524px;
+            width:298px;
+        }
+        #space img{
+            height:218px;
+            width:218px;
+            right:8%;
+            top:4658px;
+        }
+        #space pre{
+            width: 850px;
+            height: 210px;
+            right:40.76%;
+            top: 4682px;
+            font-size: 15px;
+            line-height: 27px;
+        }
+
+/* --------------------APOPH -------------------*/
+
+        #apoph h1{
+            left:38.76%;
+            top:5004px;
+            width:152px;
+        }
+        #apoph img{
+            height:218px;
+            width:218px;
+            left: 8%;
+            top:5150px;
+        }
+        #apoph pre{
+            width: 850px;
+            height: 210px;
+            left: 41.68%;
+            top: 5139px;
+            font-size: 15px;
+            line-height: 27px;
+        }
+
+/* --------------------PLUS BELLE LA VIGNE -------------------*/
+
+        #vigne h1{
+            left:35.76%;
+            top: 5424px;
+            width:242px;
+        }
+        #vigne img{
+            height:218px;
+            width:218px;
+            left: 8%;
+            top:5550px;
+        }
+        #vigne pre{
+            width: 850px;
+            height: 210px;
+            left: 40.68%;
+            top: 5539px;
+            font-size: 15px;
+            line-height: 27px;
+        }
+
+/* --------------------LASER GAME -------------------*/
+
+        #lasergame h1{
+            left:32.79%;
+            top:5794px;
+            width:228px;
+        }
+        #lasergame img{
+            height:218px;
+            width:218px;
+            right:18%;
+            top:5898px;
+        }
+        #lasergame pre{
+            width: 850px;
+            height: 210px;
+            right:53.76%;
+            top: 5912px;
+            font-size: 15px;
+            line-height: 27px;
+        }
+
+/* --------------------TECH ISEN -------------------*/
+
+        #techisen h1{
+            left:40.76%;
+            top: 6184px;
+            width:132px;
+        }
+        #techisen img{
+            height:218px;
+            width:218px;
+            left: 8%;
+            top:6350px;
+        }
+        #techisen pre{
+            width: 850px;
+            height: 210px;
+            left: 43.68%;
+            top: 6339px;
+            font-size: 15px;
+            line-height: 27px;
+        }
+
+/* --------------------CONCEPT ISEN -------------------*/
+
+        #isenconcept h1{
+            left:37.79%;
+            top:6654px;
+            width:178px;
+        }
+        #isenconcept img{
+            height:218px;
+            width:218px;
+            right:8%;
+            top:6758px;
+        }
+        #isenconcept pre{
+            width: 850px;
+            height: 210px;
+            right:42.76%;
+            top: 6782px;
+            font-size: 15px;
+            line-height: 27px;
+        }
+
+
+
+/*-------------------------------------ECRAN MAX 650 PX (Mobile)-----------------------------------------------------*/
+
+        @media only screen and (max-width:650px){
+
+            main{ 
+                top:243px;
+                width:100%;
+                height:7754px;
+            }
+
+ /*----------------------------------BDE -------------------------------------*/
+
+            #bde h1{
+                left:35.54%;
+                width:186px;
+                top:282px;
+            }
+            #bde img{
+                height:150px;
+                width:150px;
+                left: 39%;
+                top: 392px;
+            }
+            #bde pre{
+                width: 350px;
+                height: 210px;
+                left:20%;                
+                text-align:center;
+                top: 548px;
+            }
+
+/*---------------------------------------------BDP-------------------------------*/           
+             #bdp h1{
+                left:31.76%;
+                top:805px;
+                width:235px;
+            }
+            #bdp img{
+                height:150px;
+                width:150px;
+                left: 39%;
+                top:935px;
+            }
+            #bdp pre{
+                width: 350px;
+                height: 210px;
+                left:20%;                
+                text-align:center;
+                top: 1098px;
+            }
+
+/* ------------------------------------------------BDS----------------------------------*/
+
+            #bds h1{
+                left:41.11%;
+                top:1339px;
+                width:112px;
+            }
+            #bds img{
+                height:150px;
+                width:150px;
+                left: 39%;
+                top:1450px;
+            }
+            #bds pre{
+                width: 350px;
+                height: 210px;
+                left:20%;                
+                text-align:center;
+                top: 1598px;
+            }
+
+/* ------------------------------------SKI'ISEN-------------------------------------*/
+
+            #skisen h1{
+                left:41.88%;
+                top:1831px;
+                width:91px;
+            }
+            #skisen img{
+                height:150px;
+                width:150px;
+                left: 39%;
+                top:1940px;
+            }
+            #skisen pre{
+                width: 350px;
+                height: 210px;
+                left:20%;                
+                text-align:center;
+                top: 2098px;
+            }
+
+/* ----------------------------------INK'ISEN-------------------------------------------*/
+
+            #inkisen h1{
+                left:39.76%;
+                top:2300px;
+                width:122px;
+            }
+            #inkisen img{
+                height:150px;
+                width:150px;
+                left: 39%;
+                top:2400px;
+            }
+            #inkisen pre{
+                width: 350px;
+                height: 210px;
+                left:20%;                
+                text-align:center;
+                top: 2548px;
+            }
+
+/* -----------------------------VINYLE ISEN ---------------------------------*/
+
+            #vinyleclub h1{
+                left:39.79%;
+                top:2744px;
+                width:148px;
+            }
+            #vinyleclub img{
+                height:150px;
+                width:150px;
+                left: 39%;
+                top:2858px;
+            }
+            #vinyleclub pre{
+                width: 350px;
+                height: 210px;
+                left:21%;                
+                text-align:center;
+                top: 3010px;
+            }
+
+/* ------------------------------------------BDA----------------------------- */
+            #bda h1{
+                left:39.76%;
+                top:3224px;
+                width:122px;
+            }
+            #bda img{
+                height:150px;
+                width:150px;
+                left: 39%;
+                top:3330px;
+            }
+            #bda pre{
+                width: 350px;
+                height: 210px;
+                left:21%;                
+                text-align:center;
+                top: 3490px;
+            }
+
+/* -------------------------------------HUMANISEN-------------------------------*/
+
+            #humanisen h1{
+                left:38.79%;
+                top:3699px;
+                width:158px;
+            }
+            #humanisen img{
+                height:150px;
+                width:150px;
+                left: 39%;
+                top:3798px;
+            }
+            #humanisen pre{
+                width: 350px;
+                height: 210px;
+                left:21%;                
+                text-align:center;
+                top: 3950px;
+            }
+
+ /* ---------------------------------------MI TEMPS----------------------------------*/
+
+            #mi h1{
+                left:35.76%;
+                top:4154px;
+                width:182px;
+            }
+            #mi img{
+                height:150px;
+                width:150px;
+                left: 39%;
+                top:4250px;
+            }
+            #mi pre{
+                width: 350px;
+                height: 210px;
+                left:21%;                
+                text-align:center;
+                top: 4390px;
+            }
+
+/* -----------------------------------ROCK JUNIA ------------------------------------------*/
+
+            #rock h1{
+                left:35.76%;
+                top:4564px;
+                width:192px;
+            }
+            #rock img{
+                height:150px;
+                width:150px;
+                left: 39%;
+                top:4650px;
+            }
+            #rock pre{
+                width: 350px;
+                height: 210px;
+                left:21%;                
+                text-align:center;
+                top: 4790px;
+            }
+
+/*------------------------------------JUNIA Space ---------------------------------------- */
+           
+            #space h1{
+                left:28.79%;
+                top:4954px;
+                width:298px;
+            }
+            #space img{
+                height:150px;
+                width:150px;
+                left: 39%;
+                top:5058px;
+            }
+            #space pre{
+                width: 350px;
+                height: 210px;
+                left:21%;                
+                text-align:center;
+                top: 5190px;
+            }
+
+/* ------------------------------APOSTRO'ISEN---------------------------------------------*/
+
+            #apoph h1{
+                left:35.76%;
+                top:5344px;
+                width:182px;
+            }
+            #apoph img{
+                height:150px;
+                width:150px;
+                left: 39%;
+                top:5450px;
+            }
+            #apoph pre{
+                width: 350px;
+                height: 210px;
+                left:21%;                
+                text-align:center;
+                top: 5590px;
+            }
+
+/* ----------------------------PLUS BELLE LA VIGNE ----------------------------------------*/
+
+            #vigne h1{
+                left:31.76%;
+                top: 5824px;
+                width:242px;
+            }
+            #vigne img{
+                height:150px;
+                width:150px;
+                left: 39%;
+                top:5930px;
+            }
+            #vigne pre{
+                width: 350px;
+                height: 210px;
+                left:21%;                
+                text-align:center;
+                top: 6060px;
+            }
+/* -----------------------------------LASER GAME ----------------------------------------*/
+
+            #lasergame h1{
+                left:32.79%;
+                top:6254px;
+                width:228px;
+            }
+            #lasergame img{
+                height:150px;
+                width:150px;
+                left: 39%;
+                top:6340px;
+            }
+            #lasergame pre{
+                width: 350px;
+                height: 210px;
+                left:24%;                
+                text-align:center;
+                top: 6480px;
+            }
+
+/* -----------------------------------TECH'ISEN-------------------------------------- */
+
+            #techisen h1{
+                left:40.76%;
+                top: 6654px;
+                width:132px;
+            }
+            #techisen img{
+                height:150px;
+                width:150px;
+                left: 39%;
+                top:6750px;
+            }
+            #techisen pre{
+                width: 350px;
+                height: 210px;
+                left:24%;                
+                text-align:center;
+                top: 6920px;
+            }
+
+/* -------------------------------ISEN concept------------------------------------------ */
+
+            #isenconcept h1{
+                left:37.79%;
+                top:7124px;
+                width:178px;
+            }
+            #isenconcept img{
+                height:150px;
+                width:150px;
+                left: 39%;
+                top:7198px;
+            }
+            #isenconcept pre{
+                width: 350px;
+                height: 210px;
+                left:24%;                
+                text-align:center;
+                top: 7320px;
+            }
+        }
+    }

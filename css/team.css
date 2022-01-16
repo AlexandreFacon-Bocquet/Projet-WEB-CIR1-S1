@@ -1,0 +1,1212 @@
+header{  /* Se rapporte au header (haut de page) */
+    position:relative; /* Elément positionnait dans le flux normal de la page*/ 
+    top:0;
+    height: 0px; /* Hauteur de 0px */
+}
+main{ /* Se rapporte au main de la page HTML */
+   height:3900px; /* Hauteur de 3900px*/
+   top:173px;
+   position:relative; /* Elément positionnait dans le flux normal de la page*/ 
+   grid-template-rows: 542px 280px 600px 960px 532px 587px 600px 280px;
+}
+footer{ /* Se rapporte à la partie footer (bas de page) */
+    height:100px; /* Hauteur de 100px*/
+    top:20px; 
+    position:relative; /* Elément positionnait dans le flux normal de la page*/ 
+}
+
+/* ------------------------------------------------------------------------*/
+
+.deroulant2>a{
+    color:#FDCF2D;
+}
+
+#imgTeam{
+    display:grid;
+    grid-row:1/2;
+}
+
+.imgTeam{
+    width:100% ;
+}
+
+#teamInkIsen{
+    display:grid;
+    grid-row: 2/3;
+}
+
+.team_inkisen{
+    width:80%;
+    margin:10%;
+}
+
+/* ------------------BUREAU -------------------------------*/
+
+#bureau{
+    display:grid;
+    grid-row:3/4;
+}
+
+#bureau{ /* création d'un grid "bureau" pour le bon positionnement des sections avec le responsive*/
+    grid-template-columns: 17.84% 21.45% 21.46% 21.45% 17.77%;
+    grid-template-rows: 27.62% 72.37%;
+    /* matrice de 5 colonnes et 2 lignes */
+}
+
+#bureau h1{
+    grid-area:1/1/2/6;
+    position:relative; /* Elément positionnait dans le flux normal de la page*/
+    left:46.59%;
+    text-align: center;
+    font-family: 'Chau Philomene One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 48px;
+    width:108px;
+    color: #000000;
+    border-bottom: 4px solid #FDCF2D; /*création d'un trait de couleur en dessous du texte */
+}
+
+#bureau img{ /* Dimension des images de la section bureau */
+    height:85.25%;
+    width:255px;
+}
+
+/*  Baptiste  */
+    #pres{
+        grid-area:2/2/3/3;/* position dans le grid "bureau"*/
+    }
+
+    #pres .text{
+        background: #FDCF2D;
+        width:255px;
+        height: 20.75%;
+        color: #000000;
+    }
+
+    #pres .text h2{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: bold;
+        font-size:24px;
+        line-height: 30px;
+        text-align: center;
+        margin:0;
+    }
+
+    #pres .text p{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: normal;
+        font-size:18px;
+        line-height: 25px;
+        text-align: center;
+        margin:0;
+    }
+
+/*  Marine  */
+
+    #secr{
+        grid-area:2/3/3/4;/* position dans le grid "bureau"*/
+        position:relative; /* Elément positionnait dans le flux normal de la page*/
+        left:5%;
+    }
+    #secr .text{
+        background: #59E4AD;
+        width:255px;
+        height: 20.75%;
+        color: #000000;
+    }
+    #secr .text h2{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: bold;
+        font-size:24px;
+        line-height: 30px;
+        text-align: center;
+        margin:0;
+    }
+    #secr .text p{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: normal;
+        font-size:18px;
+        line-height: 25px;
+        text-align: center;
+        margin:0;
+    }
+
+/*  Constance  */
+
+    #tres{
+        grid-area:2/4/3/5;/* position dans le grid "bureau"*/
+        position: relative; /* Elément positionnait dans le flux normal de la page*/
+        left:9%;
+    }
+    #tres .text{
+        background: #BCCAF8;
+        width:255px;
+        height: 20.75%;
+        color: #000000;
+    }
+    #tres .text h2{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: bold;
+        font-size:24px;
+        line-height: 30px;
+        text-align: center;
+        margin:0;
+    }
+    #tres .text p{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: normal;
+        font-size:18px;
+        line-height: 25px;
+        text-align: center;
+        margin:0;
+    }
+
+/* -------------------REDACTION --------------------------------------------------*/
+#redac{
+    display:grid;
+    grid-row:4/5;
+    height:960px;
+}
+#redac{ /* création d'un grid "redac" pour le bon positionnement des sections avec le responsive*/
+    grid-template-columns: 7.08% 21.45% 10.72% 10.72% 10.72% 10.72% 21.45% 7.08%;
+    grid-template-rows: 15.04% 44.47% 44.47%;
+    /* matrice de 8 colonnes et 3 lignes */
+}
+#redac h1{
+    grid-area:1/1/2/8; /* position dans le grid "redac"*/
+    position:relative; /* Elément positionnait dans le flux normal de la page*/
+    left:39.88%;
+    text-align: center;
+    font-family: 'Chau Philomene One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 138px;
+    color: #000000;
+    width:290px;
+    border-bottom: 4px solid #59E4AD; /*création d'un trait de couleur en dessous du texte */
+}
+#redac img{ /* Dimension des images de la section rédaction */
+    height:270px;
+    width:255px;
+}
+
+/*  Louise */
+
+    #Louise{
+        grid-area:2/2/3/3;/* position dans le grid "redac"*/
+    }
+    #Louise .text{
+        background: #363C5D;
+        width:255px;
+        height: 14.75%;
+        color: #ffffff;
+    }
+    #Louise .text h2{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: bold;
+        font-size:24px;
+        line-height: 30px;
+        text-align: center;
+        margin:0;
+    }
+    #Louise .text p{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: normal;
+        font-size:16px;
+        line-height: 25px;
+        text-align: center;
+        margin:0;
+    }
+
+/*  Amélie  */
+
+    #Amelie{
+        grid-area:2/3/3/5; /* position dans le grid "redac"*/
+        position:relative; /* Elément positionnait dans le flux normal de la page*/
+        left:10%;
+    }
+    #Amelie .text{
+        background: #FDCF2D;
+        width:205px;
+        height: 14.75%;
+        color: #000000;
+    }
+    #Amelie .text h2{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: bold;
+        font-size:24px;
+        line-height: 30px;
+        text-align: center;
+        margin:0;
+    }
+    #Amelie .text p{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: normal;
+        font-size:18px;
+        line-height: 25px;
+        text-align: center;
+        margin:0;
+    }
+    #Amelie img{
+        height:270px;
+        width:205px;
+    }
+
+/*  Malo  */
+
+    #Malo{
+        grid-area:2/5/3/7;/* position dans le grid "redac"*/
+    }
+    #Malo .text{
+        background: #BCCAF8;
+        width:255px;
+        height: 14.75%;
+        color: #000000;
+    }
+    #Malo .text h2{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: bold;
+        font-size:24px;
+        line-height: 30px;
+        text-align: center;
+        margin:0;
+    }
+    #Malo .text p{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: normal;
+        font-size:18px;
+        line-height: 25px;
+        text-align: center;
+        margin:0;
+    }
+
+/*  Lou */
+
+    #Lou{
+        grid-area:2/7/3/8;/* position dans le grid "redac"*/
+        position:relative; /* Elément positionnait dans le flux normal de la page*/
+        left:8%;
+    }
+    #Lou .text{
+        background: #59E4AD;
+        width:255px;
+        height: 14.75%;
+        color: #000000;
+    }
+    #Lou .text h2{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: bold;
+        font-size:24px;
+        line-height: 30px;
+        text-align: center;
+        margin:0;
+    }
+    #Lou .text p{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: normal;
+        font-size:18px;
+        line-height: 25px;
+        text-align: center;
+        margin:0;
+    }
+
+/*  Anna  */
+
+    #Anna{
+        grid-area:3/4/4/6;/* position dans le grid "redac"*/
+    }
+    #Anna .text{
+        background: #363C5D;
+        width:255px;
+        height: 14.75%;
+        color: #ffffff;
+    }
+    #Anna .text h2{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: bold;
+        font-size:24px;
+        line-height: 30px;
+        text-align: center;
+        margin:0;
+    }
+    #Anna .text p{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: normal;
+        font-size:18px;
+        line-height: 25px;
+        text-align: center;
+        margin:0;
+    }
+
+/* ---------------------PHOTOGRAPHIE------------------------*/
+#photo{
+    display:grid;
+    grid-row:5/6;
+    height:502px;
+}
+#photo{/* création d'un grid "photo" pour le bon positionnement des sections avec le responsive*/
+    grid-template-columns: 29.86% 20.14% 50%;
+    grid-template-rows:100px 400px;
+    /* matrice de 3 colonnes et 2 lignes */
+}
+#photo img{ /* Dimension des images de la section photographie */
+    height:270px;
+    width:225px;
+}
+#photo h1{
+    grid-area:1/1/2/4; /* position dans le grid "photo"*/
+    position:relative; /* Elément positionnait dans le flux normal de la page*/
+    left:43.75%;
+    text-align: center;
+    font-family: 'Chau Philomene One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 45px;
+    width:190px;
+    color: #000000;
+    border-bottom: 4px solid #FDCF2D;/*création d'un trait de couleur en dessous du texte */
+}
+
+/*  Marie  */
+
+    #Marie{
+        grid-area:2/2/3/3;/* position dans le grid "photo"*/
+        position:relative; /* Elément positionnait dans le flux normal de la page*/
+        top:25px;
+    }
+    #Marie .text{
+        background-color: #FDCF2D;
+        width:225px;
+        height: 14.75%;
+        color: #000000;
+    }
+    #Marie .text h2{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: bold;
+        font-size:24px;
+        line-height: 30px;
+        text-align: center;
+        margin:0;
+    }
+    #Marie .text p{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: normal;
+        font-size:18px;
+        line-height: 25px;
+        text-align: center;
+        margin:0;
+    }
+
+/*  Alexandre  */
+
+    #Alex{
+        grid-area:2/3/3/4;/* position dans le grid "photo"*/
+        position:relative; /* Elément positionnait dans le flux normal de la page*/
+        top:25px;
+        left:5%;
+    }
+    #Alex .text{
+        background-color: #59E4AD;
+        width:225px;
+        height: 14.75%;
+        color: #000000;
+    }
+    #Alex .text h2{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: bold;
+        font-size:24px;
+        line-height: 30px;
+        text-align: center;
+        margin:0;
+    }
+    #Alex .text p{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: normal;
+        font-size:18px;
+        line-height: 25px;
+        text-align: center;
+        margin:0;
+    }
+
+/* -----------------COMMUNICATION-------------------*/
+
+#comm{
+    display:grid;
+    grid-row:6/7;
+    height:547px;
+}
+#comm{
+    grid-template-columns: 17.84% 21.45% 21.46% 21.45% 17.77%;
+    grid-template-rows: 20.62% 72.37%;
+}
+#comm h1{
+    grid-area:1/1/2/6;
+    position:relative; /* Elément positionnait dans le flux normal de la page*/
+    left:41%;
+    text-align: center;
+    font-family: 'Chau Philomene One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 48px;
+    width:230px;
+    color: #000000;
+    border-bottom: 4px solid #363C5D; /*création d'un trait de couleur en dessous du texte */
+}
+#comm img{ /* Dimension des images de la section communication */
+    height:270px;
+    width:255px;
+}
+
+/*  Alexandre  */
+    #RespCom{
+        grid-area:2/2/3/3;
+    }
+    #RespCom .text{
+        background: #BCCAF8;
+        width:255px;
+        height: 14.75%;
+        color: #000000;
+    }
+    #RespCom .text h2{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: bold;
+        font-size:17.5px;
+        line-height: 30px;
+        text-align: center;
+        margin:0;
+    }
+    #RespCom .text p{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: normal;
+        font-size:18px;
+        line-height: 25px;
+        text-align: center;
+        margin:0;
+    }
+    
+/*  Adeline  */
+    #respvid{
+        grid-area:2/3/3/4;
+        position:relative; /* Elément positionnait dans le flux normal de la page*/
+        left:5%;
+    }
+    #respvid .text{
+        background: #363C5D;
+        width:255px;
+        height: 14.75%;
+        color: #ffffff;
+    }
+    #respvid .text h2{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: bold;
+        font-size:24px;
+        line-height: 30px;
+        text-align: center;
+        margin:0;
+    }
+    #respvid .text p{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: normal;
+        font-size:18px;
+        line-height: 25px;
+        text-align: center;
+        margin:0;
+    }
+
+/*  Anya  */
+    #Anya{
+        grid-area:2/4/3/5;
+        position:relative; /* Elément positionnait dans le flux normal de la page*/
+        left:10%;
+    }
+    #Anya .text{
+        background: #BCCAF8;
+        width:255px;
+        height: 14.75%;
+        color: #000000;
+    }
+    #Anya .text h2{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: bold;
+        font-size:24px;
+        line-height: 30px;
+        text-align: center;
+        margin:0;
+    }
+    #Anya .text p{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: normal;
+        font-size:18px;
+        line-height: 25px;
+        text-align: center;
+        margin:0;
+    }
+
+/*------------------------SPONSOR ----------------------- */
+
+#sponsors{
+    display:grid;
+    grid-row:7/8;
+    height:450px;
+}
+
+#sponsors img{ /* Dimension des images de la section sponsor */
+    height:270px;
+    width:255px;
+}
+
+#sponsors h1{
+    position:relative;
+    left: 44.62%;
+    text-align: center;
+    font-family: 'Chau Philomene One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 48px;
+    width:130px;
+    color: #000000;
+    border-bottom: 4px solid #BCCAF8; /*création d'un trait de couleur en dessous du texte */
+}
+
+/*  Léo  */
+    #Leo{
+        position:relative;
+        left:40.90%;
+    }
+    #Leo .text{
+        background: #FDCF2D;
+        width:255px;
+        height: 63px;
+        color: #000000;
+    }
+    #Leo .text h2{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: bold;
+        font-size:17.5px;
+        line-height: 30px;
+        text-align: center;
+        margin:0;
+    }
+    #Leo .text p{
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: normal;
+        font-size:18px;
+        line-height: 25px;
+        text-align: center;
+        margin:0;
+    }
+
+
+/*-------------------------------------ECRAN MAX 825 PX (Tablette)-----------------------------------------------------*/
+
+@media only screen and (max-width:825px){
+    main{
+        height:4350px;
+        top:173px;
+        width:100%;
+    } 
+}
+
+
+/*-------------------------------------ECRAN MAX 1175 PX (Tablette)-----------------------------------------------------*/
+
+@media only screen and (max-width:1175px){
+    main{
+        height:4550px;
+        top:173px;
+        width:100%;
+    }
+
+    #bureau{ /*Recalibrage du grid*/
+        grid-template-columns: 17.84% 1fr 1fr 1fr 1fr 1fr 1fr 17.77%;
+        grid-template-rows: 17.62% 37% 7% 37%;
+    }
+    
+    #bureau h1{
+        grid-area:1/1/2/9;
+        position:relative;
+        left:46.59%;
+        text-align: center;
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 87px;
+        width:108px;
+        color: #000000;
+        border-bottom: 4px solid #FDCF2D; /*faut arranger le bug */
+    }
+    
+    #bureau img{
+        height:85.25%;
+        width:235px;
+    }
+    
+    /*Président*/
+            #pres{
+                grid-area:2/4/3/6;
+            }
+            #pres .text{
+                width:235px;
+            }
+            
+    /* Secrétaire */
+            #secr{
+                grid-area:4/2/5/4;
+                left:10%;
+            }
+            #secr .text{
+                width:235px;
+            }
+            
+    /*trésorière*/
+            #tres{
+                grid-area:4/5/5/7;
+                left:45%
+            }
+            #tres .text{
+                width:235px;
+            }
+            #tres .text h2{
+                font-size:20px;
+                line-height: 30px;
+            }
+
+/*------------------------REDACTION ----------------------- */
+    #redac{
+        display:grid;
+        grid-row:4/5;
+        height:1260px;
+    }
+    
+    #redac{
+        grid-template-columns: 11.68% 38.31% 38.31% 11.68%;
+        grid-template-rows: 10% 30% 30% 30%;
+    }
+    
+    #redac h1{
+        grid-area:1/1/2/4;
+        line-height: 98px;
+        left:43%;
+    }
+    
+    #redac img{
+        height:250px;
+        width:235px;
+    }
+    
+    /*Louise*/
+            #Louise{
+                grid-area:2/2/3/3;
+                position:relative;
+                left:23%;
+            }
+            #Louise .text{
+                width:235px;
+            }
+            
+    /*Amélie*/
+            #Amelie{
+                grid-area:2/3/3/4;
+                position:relative;
+                left:25%;
+            }
+            #Amelie .text{
+                width:215px;
+            }
+            #Amelie img{
+                height:250px;
+                width:215px;
+            }
+
+    /*Malo*/
+            #Malo{
+                grid-area:3/2/4/3;
+                position:relative;
+                left:23%;
+            }
+            #Malo .text{
+                width:235px;
+            }
+            
+    /*Lou*/
+            #Lou{
+                grid-area:3/3/4/4;
+                position:relative;
+                left:25%;
+            }
+            #Lou .text{
+                width:235px;
+            }
+            
+    /*Anna*/
+            #Anna{
+                grid-area:4/1/5/4;
+                position:relative;
+                left:45.94%;
+            }
+            #Anna .text{
+                width:235px;
+            }
+
+/*------------------------PHOTOGRAPHIE ----------------------- */
+
+    #photo{
+        grid-template-columns: 11.68% 38.31% 38.31% 11.68%;;
+        grid-template-rows:100px 400px;
+    }
+
+    #photo img{
+        height:250px;
+        width:215px;
+    }
+
+    #photo h1{
+        grid-area:1/1/2/4;
+        left:47.75%;
+        width:190px;
+    }
+
+    /* Marie*/
+            #Marie{
+                grid-area:2/2/3/3;
+                position:relative;
+                left:27%;
+            }
+            #Marie .text{
+                width:215px;
+            }
+
+    /*Alexander*/
+            #Alex{
+                grid-area:2/3/3/4;
+                position:relative;
+                left:27%;
+            }
+            #Alex .text{
+                width:215px;
+            }
+
+/*------------------------COMMUNICATION ----------------------- */
+
+    #comm{
+        display:grid;
+        grid-row:6/7;
+        height:797px;
+    }
+
+    #comm{
+        grid-template-columns: 11.68% 38.31% 38.31% 11.68%;
+        grid-template-rows: 10% 40% 40%;
+    }
+
+    #comm h1{
+        grid-area:1/1/2/5;
+        left:41%;
+        line-height: 5px;
+    }
+
+    #comm img{
+        height:250px;
+        width:235px;
+    }
+
+    /* Alexandre */
+            #RespCom{
+                grid-area:2/2/3/3;
+                position:relative;
+                left:23%;
+            }
+            #RespCom .text{
+                width:235px;
+                height: 19.75%;
+            }
+            #RespCom .text h2{
+                font-size:16px;
+                line-height: 30px;
+            }
+
+    /*Adeline*/
+            #respvid{
+                grid-area:2/3/3/4;
+                position:relative;
+                left:25%;
+            }
+            #respvid .text{
+                width:235px;
+                height: 19.75%;
+            }
+            
+    /*Anya*/
+            #Anya{
+                grid-area:3/1/4/5;
+                position:relative;
+                top:25px;
+                left:40%;
+            }
+            #Anya .text{
+                background: #BCCAF8;
+                width:235px;
+                height: 19.75%;
+                color: #000000;
+            }
+
+/*------------------------SPONSOR ----------------------- */
+
+    #Leo{
+        position:relative;
+        left:40.90%;
+    }
+    #sponsors img{
+        height:250px;
+        width:235px;
+    }
+    #Leo .text{
+        width:235px;
+    }
+}
+
+/*-------------------------------------ECRAN MAX 650 PX (MOBILE)-----------------------------------------------------*/
+
+@media only screen and (max-width:650px){
+    main{
+        top:236px;
+        height:3850px;
+    }
+    
+
+/*------------------------ BUREAU ----------------------- */
+
+    #bureau img{ /* redimension des photos */
+        height:180px;
+        width:175px;
+    }
+    
+    #bureau h1{ /* recentre le titre */
+        left:45.75%;
+        line-height:20px;
+    }
+    
+    /* président */
+            #pres{
+                left:37%;
+            }
+            #pres .text{
+                width:175px;
+                height: 23.75%;
+            }
+            #pres .text h2{
+                font-size:21px;
+                line-height: 25px;
+            }
+            #pres .text p{
+                font-size:15px;
+            }
+
+
+    /* Secrétaire */
+            #secr{
+                left:5%;
+            }
+            #secr .text{
+                width:175px;
+                height: 19.75%;
+            }
+            #secr .text h2{
+                font-size:20px;
+                line-height: 20px;
+            }
+            #secr .text p{
+                font-size:16px;
+            }
+
+            
+    /* Trésorière */
+            #tres{
+                left:30%;
+            }
+            #tres .text{
+                width:175px;
+                height: 19.75%;
+            }
+            #tres .text h2{
+                font-size:16px;
+                line-height: 20px;
+            }
+            #tres .text p{
+                font-size:15px;
+            }
+    
+    /*-----------------------------------------------*/
+    
+    /* redac section */
+    #redac{
+        height:1000px;
+    }
+
+    #redac{
+        grid-template-rows: 13% 29% 29% 29%;
+    }
+
+    #redac h1{ /* recentre le titre */
+        left:30%;
+    }
+
+    #redac img{ /* redimension des photos */
+        height:180px;
+        width:175px;
+    }
+
+    /*Louise*/
+            #Louise{
+                left:0%;
+            }
+            #Louise .text{
+                width:175px;
+                height: 21.75%;
+            }
+            #Louise .text h2{
+                font-size:26px;
+                line-height: 34px;
+            }
+            #Louise .text p{
+                font-size:15px;
+            }
+
+
+    /*Amélie*/
+            #Amelie{
+                left:28%;
+            }
+            #Amelie .text{
+                width:155px;
+                height: 21.75%;
+            }
+            #Amelie .text h2{
+                font-size:24px;
+                line-height: 20px;
+            }
+            #Amelie .text p{
+                font-size:15px;
+            }
+            #Amelie img{
+                height:180px;
+                width:155px;
+            }
+
+
+    /*Malo*/
+            #Malo{
+                left:0%;
+            }
+            #Malo .text{
+                width:175px;
+                height: 21.75%;
+            }
+            #Malo .text h2{
+                font-size:24px;
+                line-height: 21px;
+            }
+            #Malo .text p{
+                font-size:15px;
+            }
+
+            
+    /*Lou*/
+            #Lou .text{
+                width:175px;
+                height: 21.75%;
+            }
+            #Lou .text h2{
+                font-size:24px;
+                line-height: 36px;
+            }
+            #Lou .text p{
+                font-size:15px;
+            }
+
+
+    /* Anna */
+            #Anna{
+                left:40%;
+            }
+            #Anna .text{
+                width:175px;
+                height: 21.75%;
+            }
+            #Anna .text h2{
+                font-size:26px;
+                line-height: 34px;
+            }
+            #Anna .text p{
+                font-size:15px;
+            }
+    
+    /*------------------------------------------------------*/
+
+    /* Pôle Photo */
+
+    #photo img{/* redimension des photos */
+        height:180px;
+        width:155px;
+    }
+
+    #photo h1{ /* recentre le titre */
+        grid-area:1/1/2/4;
+        left:40.75%;
+        width:190px;
+    }
+
+    /*Marie*/
+            #Marie{
+                left:7%;
+            }
+            #Marie .text{
+                width:155px;
+                height: 19.75%;
+            }
+            #Marie .text h2{
+                font-size:24px;
+                line-height: 24px;
+            }
+            #Marie .text p{
+                font-size:15px;
+            }
+
+
+    /*Alexander*/
+            #Alex{
+                left:30%;
+            }
+            #Alex .text{
+                width:155px;
+                height: 19.75%;
+            }
+            #Alex .text h2{
+                font-size:24px;
+                line-height: 24px;
+            }
+            #Alex .text p{
+                font-size:15px;
+            }
+
+    /*--------------------------------------------------------*/
+    
+    /* Pôle communication */
+    #comm img{ /* redimension des photos */
+        height:180px;
+        width:175px;
+    }
+    
+    #comm h1{ /* recentre le titre */
+        left:32.75%;
+    }
+    /*Alexandre*/
+            #RespCom{
+                left:5%;
+            }
+            #RespCom .text{
+                width:175px;
+                height: 19.75%;
+            }
+            #RespCom .text h2{
+                font-size:16px;
+                line-height: 20px;
+            }
+            #RespCom .text p{
+                font-size:14px;
+            }
+
+            
+    /*Adeline*/
+            #respvid{
+                left:30%;
+            }
+            #respvid .text{
+                width:175px;
+                height: 19.75%;
+            }
+            #respvid .text h2{
+                font-size:21px;
+                line-height: 20px;
+            }
+            #respvid .text p{
+                font-size:15px;
+            }
+
+            
+    /*Anya*/
+            #Anya{
+                left:35%;
+            }
+            #Anya .text{
+                width:175px;
+                height: 19.75%;
+            }
+            #Anya .text h2{
+                font-size:21px;
+                line-height: 30px;
+            }
+            #Anya .text p{
+                font-size:15px;
+            }
+            
+    /*------------------------------------------------------*/
+
+    /* Pôle sponsors */
+
+    #sponsors{
+        height:250px;
+    }
+    
+    #sponsors h1{ /* recentre le titre */
+        left:40%;
+    }
+
+    /*Leo*/
+            #Leo{
+                position:relative;
+                left:35.90%;
+            }
+            #Leo img{ /* redimension de la photo */
+                height:180px;
+                width:175px;
+            }
+            #Leo .text{
+                width:175px;
+            }
+}

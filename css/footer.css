@@ -1,0 +1,501 @@
+*{text-decoration: none;} /* Cela permet d'enlever toute la typographie initiale*/
+
+.footer{
+    background-color: #363C5D; /* couleur de fond */
+    height:300px;/* hauteur du texte*/
+    top:100%; /* Positionné à 100px par rapport au haut de la page*/
+    display:grid; /* création du grid :*/
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-template-rows: 19% 8.45% 8.45% 8.45% 8.45% 8.45% 8.45% 11.73% 18.77%;
+} 
+/*-------------------------------------------------*/
+
+/* partie des redirections vers les pages aka Navigation */
+
+.footer a{
+    position:relative;
+}
+.a01{/*Paramètres du titre de la section*/
+    grid-area:1/1/2/2;/*positionnement dans le grid*/
+    text-decoration: none;
+    font-family: "Chau Philomene One";/*police d'écriture*/
+    font-style: normal;
+    font-weight: bold;/*texte en gras*/
+    font-variant: small-caps;/* texte en minuscule est transformé en texte en petites majuscules*/
+    font-size: 22px;/*taille de la police*/
+    line-height: 27px;/*hauteur de la ligne*/
+    color: #FDCF2D;/* couleur d'écriture*/
+}
+
+/*première colonne : */
+.a11{grid-area:2/1/3/2;/*positionement dans le grid*/}
+.a12{grid-area:3/1/4/2;/*positionement dans le grid*/}
+.a13{grid-area:4/1/5/2;/*positionement dans le grid*/}
+.a14{grid-area:5/1/6/2;/*positionement dans le grid*/}
+.a15{grid-area:6/1/7/2;/*positionement dans le grid*/}
+.a16{grid-area:7/1/8/2;/*positionement dans le grid*/}
+/*deuxième colonne : */
+.a21{grid-area:2/2/3/3;/*positionement dans le grid*/}
+.a22{grid-area:3/2/4/3;/*positionement dans le grid*/}
+.a23{grid-area:4/2/5/3;/*positionement dans le grid*/}
+.a24{grid-area:5/2/6/3;/*positionement dans le grid*/}
+.a25{grid-area:6/2/7/3;/*positionement dans le grid*/}
+.a26{grid-area:7/2/8/3;/*positionement dans le grid*/}
+
+.footer a{
+    position:relative;
+    font-family: "Montserrat"; /* police d'ecriture*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;/*taille de la police */
+    line-height: 21px; /* hauteur de la ligne*/
+    color: #FFFFFF;/*couleur du texte*/
+}
+
+/*-------------------------------------*/
+
+/* séparation */
+
+
+.trait1{ /*création du trait blanc de séparation gauche à une certaine position*/
+    grid-area:8/1/9/3;
+    border-bottom:3px solid white;
+}
+.trait2{/*création du trait blanc de séparation droit à une certaine position*/
+    grid-area:8/4/9/5;
+    border-bottom:3px solid white;
+}
+
+.fb{
+    grid-area:8/3/9/4;/*position dans le grid*/
+    position:absolute;
+    left:25.85%;/*decalage par rapport au bord gauche de l'écran*/
+    /* dimensions du logo : */
+    height:45px;
+    width:45px;
+}
+.ig{
+    grid-area:8/3/9/4; /*position dans le grid */
+    position:absolute;
+    left:57.04%;/*decalage par rapport au bord gauche de l'écran*/
+    /* dimensions du logo : */
+    height:45px;
+    width:45px;
+}
+
+/*---------------------------------------------*/
+
+/* partie des partenariats */
+
+.b1{
+    grid-area:1/3/2/4;/*position dans le grid*/
+    font-family: 'Chau Philomene One';/*police d'écriture*/
+    font-style: normal;
+    font-weight: bold; /* texte en gras*/
+    font-variant: small-caps; /* texte en petites majuscules*/
+    font-size: 22px; /* taille de la police*/
+    line-height: 27px;/*hauteur de la ligne*/
+    color: #59E4AD;/* couleur du texte*/
+}
+
+.b2{
+    grid-area:2/3/4/4;/*position dans le grid*/
+}
+
+.b2 img{/*dimensions du logo*/
+    width:100px;
+    height:40px;
+}
+
+/*-----------------------------------*/
+
+/* partie perdu.e */
+
+.c1{ /*idem que pour b1*/
+    grid-area:2/4/3/5;
+    font-family: 'Chau Philomene One';
+    font-style: normal;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FDCF2D;
+    position:relative;
+    float:left;/*position décalée à gauche */
+}
+
+#searchbar{
+    grid-area:4/4/6/5; /*position dans le grid*/
+    background: #FFFFFF; /*couleur de l'arrière plan de la searchbar*/
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5), 0px 2px 2px rgba(0, 0, 0, 0.5);/* effet ombrage sous la searchbar*/
+    border-radius: 15px; /* création d'un bord arrondi*/
+    position:relative;
+    float:center;
+    left:20%;/* decalage par rapport au bord gauche */
+    width:65%; /* longueur */
+    height:55px; /* hauteur */
+}
+
+/*--------------------------------------*/
+
+/* partie inférieure */
+
+#d{
+    grid-area:9/1/10/5; /*positionement dans le grid*/
+    font-family: "Montserrat"; /* police d'écriture*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;/*taille de la police*/
+    line-height: 16px;/*taille de la ligne*/
+    color: #FFFFFF;/*couleur du texte*/
+}
+
+#d .d1{ /*position X décalage*/
+    left:6.87%;
+    top:250px;
+    position:absolute;
+}
+#d .d2{/*position X décalage*/
+    left:23.43%;
+    top:250px;
+    position:absolute;
+}
+#d .d3{/*position X décalage*/
+    left:35.63%;
+    top:250px;
+    position:absolute;
+}
+#d .d4{/*position X décalage*/
+    left:55.47%;
+    top:250px;
+    position:absolute;
+}
+#d .d5{/*position X décalage*/
+    left:70.48%;
+    top:250px;
+    position:absolute;
+}
+#d .d6{/*position X décalage*/
+    left:85.19%;
+    top:250px;
+    position:absolute;
+}
+
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+
+/* partie dédiée aux format intermédiaire pour une meilleure ergonomie du footer*/
+
+@media only screen and (max-width:825px){ /* cette partie est dédiée aux ecrans faisant moins de 825px*/
+    .footer{
+        height:410px; /*changement de la hauteur du footer*/
+    } 
+    /*---------------------------*/
+    /* Navigation */
+
+    .footer a{ /* agrandissement des grilles pour les liens de navigation*/
+        font-size: 15px;
+        line-height: 21px;
+    }
+    /*---------------------------*/
+    /*Séparation */
+
+    .fb{
+        /*repositionement des logos*/
+        top:10px;
+        left:20.85%;
+        /* redimension des logos*/
+        height:35px;
+        width:35px;
+    }
+
+    .ig{
+        /*repositionement des logos*/
+        top:10px;
+        left:53.04%;
+        /* redimension des logos*/
+        height:35px;
+        width:35px;
+    }
+    /*-------------------------------*/
+    /* partie inférieure*/
+
+    #d{
+        grid-area:9/1/10/5;/* repositionement dans le grid*/
+        font-family: "Montserrat";/*police d'écriture*/
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;/*taille de la police*/
+        line-height: 16px;/*hauteur de la ligne*/
+        color: #FFFFFF;/*couleur d'écriture*/
+    }
+
+    #d .d1{ /*repositionement X nouveau décalage*/
+        left:2.87%;
+        top:345px;
+    }
+    #d .d2{/*repositionement X nouveau décalage*/
+        left:17.43%;
+        top:345px;
+    }
+    #d .d3{/*repositionement X nouveau décalage*/
+        left:31.63%;
+        top:345px;
+    }
+    #d .d4{/*repositionement X nouveau décalage*/
+        left:53.47%;
+        top:345px;
+    }
+    #d .d5{/*repositionement X nouveau décalage*/
+        left:69.48%;
+        top:345px;
+    }
+    #d .d6{/*repositionement X nouveau décalage*/
+        left:88.19%;
+        top:345px;
+        position:absolute;
+    }
+}
+
+/*---------------------------------------------*/
+/*---------------------------------------------*/
+
+/* partie dédiée aux format mobile pour une meilleure ergonomie du footer */
+@media only screen and (max-width:650px){/* cette partie est dédiée aux ecrans faisant moins de 650px*/
+    *{
+        text-decoration: none;
+    }
+    .footer{
+        height:614px;
+        display:grid;/*redimension du grid*/
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 11.40% 9% 9.44% 4.74% 4.74% 4.74% 4.74% 4.74% 4.74% 9% 11.4% 4.07% 13.35%;
+    } 
+
+    /* Navigation */
+    .footer a{
+        position:relative;
+    }
+    .a01{
+        grid-area:3/1/4/3;
+        text-decoration: none;
+        font-family: "Chau Philomene One";
+        font-style: normal;
+        font-weight: bold;
+        font-variant: small-caps;
+        font-size: 22px;
+        line-height: 27px;
+        color: #FDCF2D;
+        float:center; 
+    }
+    .a11{
+        grid-area:4/1/5/2; /* nouvelle position dans le grid */
+        border-right: 1px dashed #FFFFFF; /* création de la séparation centrale*/
+    }
+    .a12{
+        grid-area:5/1/6/2;/* nouvelle position dans le grid */
+        border-right: 1px dashed #FFFFFF; /* création de la séparation centrale*/
+    }
+    .a13{
+        grid-area:6/1/7/2;/* nouvelle position dans le grid */
+        border-right: 1px dashed #FFFFFF;/* création de la séparation centrale*/
+    }
+    .a14{
+        grid-area:7/1/8/2;/* nouvelle position dans le grid */
+        border-right: 1px dashed #FFFFFF;/* création de la séparation centrale*/
+    }
+    .a15{
+        grid-area:8/1/9/2;/* nouvelle position dans le grid */
+        border-right: 1px dashed #FFFFFF;/* création de la séparation centrale*/
+    }
+    .a16{
+        grid-area:9/1/10/2;/* nouvelle position dans le grid */
+        border-right: 1px dashed #FFFFFF;/* création de la séparation centrale*/
+    }
+    .a21{
+        grid-area:4/2/5/3;/* nouvelle position dans le grid */
+    }
+    .a22{
+        grid-area:5/2/6/3;/* nouvelle position dans le grid */
+    }
+    .a23{
+        grid-area:6/2/7/3;/* nouvelle position dans le grid */
+    }
+    .a24{
+        grid-area:7/2/8/3;/* nouvelle position dans le grid */
+    }.a25{
+        grid-area:8/2/9/3;/* nouvelle position dans le grid */
+    }.a26{
+        grid-area:9/2/10/3;/* nouvelle position dans le grid */
+    }
+
+    .footer a{
+        position:relative;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+
+    /*-------------------------------------------*/
+    /*Séparation*/
+
+    .trait1{
+        grid-area:12/1/13/2;/* nouvelle position dans le grid */
+        width:67.38%;
+        position:relative;
+        left:0%;
+    }
+
+    .trait2{
+        grid-area:12/2/13/3;/* nouvelle position dans le grid */
+        position:relative;
+        left:32.61%;/* décalage par rapport au bord gauche de l'écran */
+        width:67.38%;
+    }
+
+    .fb{
+        top:5px;
+        grid-area:12/1/13/3;/* nouvelle position dans le grid */
+        left:42.05%;
+        /*redimension du logo*/
+        height:25px;
+        width:25px;
+    }
+
+    .ig{
+        top:5px;
+        grid-area:12/1/13/3;/* nouvelle position dans le grid */
+        position:absolute;
+        left:53.14%;
+         /*redimension du logo*/
+        height:25px;
+        width:25px;
+    }
+
+    /*---------------------------------------------------*/
+    /*partenariats*/
+
+    .b1{
+        grid-area:10/1/11/3;/* nouvelle position dans le grid */
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: bold;
+        font-variant: small-caps;
+        font-size: 22px;
+        line-height: 27px;
+        color: #59E4AD;
+    }
+
+    .b2{
+        grid-area:11/1/12/3;/* nouvelle position dans le grid */
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+
+    .b2 img{
+        width:100px;
+        height:40px;
+    }
+
+    /*---------------------------------------------------*/
+    /* partie perdu.e*/
+
+    .c1{
+        grid-area:1/1/2/3;/* nouvelle position dans le grid */
+        font-family: 'Chau Philomene One';
+        font-style: normal;
+        font-weight: bold;
+        font-variant: small-caps;
+        font-size: 20px;
+        line-height: 27px;
+        color: #FDCF2D;
+        position:relative;
+        float:left;
+    }
+
+    #searchbar{
+        grid-area:2/1/3/3;/* nouvelle position dans le grid */
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5), 0px 2px 2px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        position:relative;
+        float:center;
+        left:6.77%;
+        width:86.68%;
+        height:55px;
+    }
+    
+    /*-------------------------------------------------*/
+    /*partie inférieure*/
+
+    #d{
+        grid-area:13/1/14/3;/* nouvelle position dans le grid */
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+    
+    #d .d1{ /*repositionement X nouveau décalage*/
+        left:13.87%;
+        top:520px;
+        position:absolute;
+    }
+    .d1::after{/*permet de rajouter la petite barre horizontale en vise de séparation*/
+        content:"|";
+        position:absolute;
+        left:133%;
+    }
+    #d .d2{/*repositionement X nouveau décalage*/
+        left:39.43%;
+        top:520px;
+        position:absolute;
+    }
+    .d2::after{/*permet de rajouter la petite barre horizontale en vise de séparation*/
+        content:"|";
+        position:absolute;
+        left:135%;
+    }
+    #d .d3{/*repositionement X nouveau décalage*/
+        left:65.63%;
+        top:520px;
+        position:absolute;
+    }
+    #d .d4{/*repositionement X nouveau décalage*/
+        left:18.47%;
+        top:550px;
+        position:absolute;
+    }
+    .d4::after{/*permet de rajouter la petite barre horizontale en vise de séparation*/
+        content:"|";
+        position:absolute;
+        left:115%;
+    }
+    #d .d5{/*repositionement X nouveau décalage*/
+        left:43.48%;
+        top:550px;
+        position:absolute;
+    }
+    .d5::after{ /*permet de rajouter la petite barre horizontale en vise de séparation*/
+        content:"|";
+        position:absolute;
+        left:120%;
+    }
+    #d .d6{/*repositionement X nouveau décalage*/
+        left:71.19%;
+        top:550px;
+        position:absolute;
+    }
+    
+    
+}
+
